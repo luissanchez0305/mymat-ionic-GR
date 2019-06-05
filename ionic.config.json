@@ -1,0 +1,7 @@
+{
+  "name": "mymat",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
