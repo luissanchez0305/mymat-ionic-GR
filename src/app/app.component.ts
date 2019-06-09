@@ -3,9 +3,7 @@ import { MenuController, Events } from 'ionic-angular';
 import { Nav, Platform } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
-import { Storage } from '@ionic/storage';
-import { Constants } from '../services/constants';
-import { TranslateService } from '@ngx-translate/core';
+import { GermanTexts } from '../services/german-texts';
 
 import { HomePage } from '../pages/home/home';
 import { HelpPage } from '../pages/help/help';
@@ -30,36 +28,17 @@ export class MyApp {
   pages: Array<{title: string, component: any, icon: any, isPush: boolean}>;
 
   constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen,
-    private translateService: TranslateService, public menuCtrl: MenuController, private storage: Storage,
-    public events : Events) {
+    public menuCtrl: MenuController, public events : Events) {
     this.initializeApp();
 
     // used for an example of ngFor and navigation
     this.pages = [
-      { title: 'home-title', component: HomePage, icon: 'menuitemhome', isPush: false },
-      { title: 'help-title', component: HelpPage, icon: 'menuitemhelp', isPush: false },
-      { title: 'contact-title', component: ContactPage, icon: 'menuitemcontact', isPush: false },
-      { title: 'fav-title', component: FavoritesPage, icon: 'menufavorites', isPush: true },
-      { title: 'slider-title', component: SliderPage, icon: 'menuiteminfo', isPush: true}
+      { title: GermanTexts['home-title'], component: HomePage, icon: 'menuitemhome', isPush: false },
+      { title: GermanTexts['help-title'], component: HelpPage, icon: 'menuitemhelp', isPush: false },
+      { title: GermanTexts['contact-title'], component: ContactPage, icon: 'menuitemcontact', isPush: false },
+      { title: GermanTexts['fav-title'], component: FavoritesPage, icon: 'menufavorites', isPush: true },
+      { title: GermanTexts['slider-title'], component: SliderPage, icon: 'menuiteminfo', isPush: true}
     ];
-    platform.ready().then(() => {
-      this.storage.get(Constants.storageKeyLang).then((value)=>{
-        if(!value){
-          value = navigator.language.split('-')[0];
-          if(!value)
-            value = 'en';
-          translateService.setDefaultLang(value);
-        }
-        translateService.use(value);
-        this.switchLang(value);
-      })
-      .catch(err => {
-          var value = 'en';
-          translateService.setDefaultLang(value);
-          translateService.use(value);
-          this.switchLang(value);
-      });;
-    });
   }
 
   initializeApp() {
@@ -78,63 +57,5 @@ export class MyApp {
       this.nav.push(page.component);
     else
       this.nav.setRoot(page.component);
-  }
-
-  switchLang(lang){
-	  this.events.publish('switchLangEvent',lang);
-	  this.events.publish('switchLangEventContact', lang);
-    switch(lang){
-      case 'es':
-        this.lang_en = true;
-        this.lang_es = false;
-        this.lang_pt = true;
-        this.lang_fr = true;
-        this.lang_gr = true;
-        this.lang_it = true;
-        break;
-      case 'en':
-        this.lang_en = false;
-        this.lang_es = true;
-        this.lang_pt = true;
-        this.lang_fr = true;
-        this.lang_gr = true;
-        this.lang_it = true;
-        break;
-      case 'pt':
-        this.lang_en = true;
-        this.lang_es = true;
-        this.lang_pt = false;
-        this.lang_fr = true;
-        this.lang_gr = true;
-        this.lang_it = true;
-        break;
-      case 'it':
-        this.lang_en = true;
-        this.lang_es = true;
-        this.lang_pt = true;
-        this.lang_fr = true;
-        this.lang_gr = true;
-        this.lang_it = false;
-        break;
-      case 'gr':
-        this.lang_en = true;
-        this.lang_es = true;
-        this.lang_pt = true;
-        this.lang_fr = true;
-        this.lang_gr = false;
-        this.lang_it = true;
-        break;
-      case 'fr':
-        this.lang_en = true;
-        this.lang_es = true;
-        this.lang_pt = true;
-        this.lang_fr = false;
-        this.lang_gr = true;
-        this.lang_it = true;
-        break;
-    }
-    this.translateService.use(lang);
-    this.storage.set(Constants.storageKeyLang, lang);
-    this.menuCtrl.close();
   }
 }

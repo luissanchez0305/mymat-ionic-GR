@@ -3,7 +3,6 @@ export var Constants = {
   	myMatApiStartUrl  : 'http://192.168.1.3/start.htm',
     myMatApiIndexUrl  : 'http://192.168.1.3/index.htm',
   	myMatApiUrl       : 'http://healinghouse.life/api/mymat/', //'https://www.esferasoluciones.com/api/mymat/',
-    storageKeyLang    : 'mymat_lang',
     storageKeyBubble1 : 'MyMat_bubbleRoutineProgram1',
     storageKeyBubble2 : 'MyMat_bubbleRoutineProgram2',
     storageKeyBubble3 : 'MyMat_bubbleRoutineProgram3',

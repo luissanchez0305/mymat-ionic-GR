@@ -129,40 +129,40 @@
   },
   "installed_plugins": {
     "cordova-plugin-file": {
-      "PACKAGE_NAME": "com.esferasoluciones.mymat_light"
+      "PACKAGE_NAME": "com.esferasoluciones.mymat_light_gr"
     },
     "cordova-plugin-advanced-http": {
-      "PACKAGE_NAME": "com.esferasoluciones.mymat_light"
+      "PACKAGE_NAME": "com.esferasoluciones.mymat_light_gr"
     },
     "cordova-plugin-badge": {
-      "PACKAGE_NAME": "com.esferasoluciones.mymat_light"
+      "PACKAGE_NAME": "com.esferasoluciones.mymat_light_gr"
     },
     "cordova-plugin-datepicker": {
-      "PACKAGE_NAME": "com.esferasoluciones.mymat_light"
+      "PACKAGE_NAME": "com.esferasoluciones.mymat_light_gr"
     },
     "cordova-plugin-device": {
-      "PACKAGE_NAME": "com.esferasoluciones.mymat_light"
+      "PACKAGE_NAME": "com.esferasoluciones.mymat_light_gr"
     },
     "cordova-plugin-email-composer": {
-      "PACKAGE_NAME": "com.esferasoluciones.mymat_light"
+      "PACKAGE_NAME": "com.esferasoluciones.mymat_light_gr"
     },
     "cordova-plugin-local-notification": {
-      "PACKAGE_NAME": "com.esferasoluciones.mymat_light"
+      "PACKAGE_NAME": "com.esferasoluciones.mymat_light_gr"
     },
     "cordova-plugin-network-information": {
-      "PACKAGE_NAME": "com.esferasoluciones.mymat_light"
+      "PACKAGE_NAME": "com.esferasoluciones.mymat_light_gr"
     },
     "cordova-plugin-networkinterface": {
-      "PACKAGE_NAME": "com.esferasoluciones.mymat_light"
+      "PACKAGE_NAME": "com.esferasoluciones.mymat_light_gr"
     },
     "cordova-plugin-splashscreen": {
-      "PACKAGE_NAME": "com.esferasoluciones.mymat_light"
+      "PACKAGE_NAME": "com.esferasoluciones.mymat_light_gr"
     },
     "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "com.esferasoluciones.mymat_light"
+      "PACKAGE_NAME": "com.esferasoluciones.mymat_light_gr"
     },
     "ionic-plugin-keyboard": {
-      "PACKAGE_NAME": "com.esferasoluciones.mymat_light"
+      "PACKAGE_NAME": "com.esferasoluciones.mymat_light_gr"
     }
   },
   "dependent_plugins": {},

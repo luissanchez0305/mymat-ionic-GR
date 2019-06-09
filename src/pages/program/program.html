@@ -17,17 +17,17 @@
 
     <div class="program-info-modal-holder">
         <div class="program-info-modal-header">
-          <h2 class="program-info-modal-running-time-title">{{ 'running-time' | translate }} </h2>
+          <h2 class="program-info-modal-running-time-title">Laufzeit</h2>
         	<h2 class="program-info-modal-running-time">
-             {{ programRunningTime  }} 
+             {{ programRunningTime  }}
         	</h2>
         </div>
-       
+
         <div class="program-info-modal-mainbody">
           <ion-scroll style="height:100%;overflow-y:scroll;">
             <div style="height:100%; line-height:25px;">{{ programDescription }}</div>
             <br/>
-            <button class="button-add-program" ion-button (click)="add1Program(programName, programRunningTime, programApiName)">{{ 'add-program' | translate }}</button>
+            <button class="button-add-program" ion-button (click)="add1Program(programName, programRunningTime, programApiName)">Hinzufügen</button>
           </ion-scroll>
         </div>
     </div>

@@ -2,9 +2,7 @@ import { Component } from '@angular/core';
 import { NavController, NavParams, Events } from 'ionic-angular';
 import { Validators, FormBuilder, FormGroup } from '@angular/forms';
 import { APIServiceProvider } from '../../providers/api-service/api-service';
-import { TranslateService } from '@ngx-translate/core';
-import { Storage } from '@ionic/storage';
-import { Constants } from '../../services/constants';
+import { GermanTexts } from '../../services/german-texts';
 
 /**
  * Generated class for the ContactPage page.
@@ -27,32 +25,23 @@ export class ContactPage {
   public response_text : string;
 
   constructor(public navCtrl: NavController, public navParams: NavParams, private formBuilder: FormBuilder, public apiService : APIServiceProvider,
-    private translateService: TranslateService, private storage: Storage, public events : Events) {
+    public events : Events) {
     this.contactForm = this.formBuilder.group({
       email: ['', Validators.required],
       name: ['', Validators.required],
       message: ['', Validators.required]
-    });
-
-    this.events.subscribe('switchLangEventContact',(lang) => {
-        //call methods to refresh content
-        this.changeButtonText(lang);
     });
   }
 
   ionViewDidLoad() {
     this.cleanForm();
     this.response_text = '';
-    this.storage.get(Constants.storageKeyLang).then((lang)=>{
-      this.changeButtonText(lang);
-    });
+    this.changeButtonText();
   }
-  
-  changeButtonText(lang){
-      this.translateService.getTranslation(lang).subscribe((value) => {
-        this.button_send = value['send-text'];
-        // Mostrar texto en label debajo del boton
-      });
+
+  changeButtonText(){
+      this.button_send = GermanTexts['send-text'];
+      // Mostrar texto en label debajo del boton
   }
 
   cleanForm(){
@@ -67,32 +56,15 @@ export class ContactPage {
     this.apiService.runPost('contact_us.php',emailData).then((result) => {
         var obj : any = result;
         if (obj.status == "ok") {
-            this.storage.get(Constants.storageKeyLang).then((lang)=>{
-              this.translateService.getTranslation(lang).subscribe((value) => {
-                this.response_text = value['email-success-message'];
-              });
-            });
-
-            this.storage.get(Constants.storageKeyLang).then((lang)=>{
-              this.translateService.getTranslation(lang).subscribe((value) => {
-                this.button_send = value['sent-text'];
-                this.cleanForm();
-              });
-            });
+            this.response_text = GermanTexts['email-success-message'];
+            this.button_send = GermanTexts['sent-text'];
+            this.cleanForm();
 
         } else {
-            this.storage.get(Constants.storageKeyLang).then((lang)=>{
-              this.translateService.getTranslation(lang).subscribe((value) => {
-                this.response_text = value['email-error-message'];
-              });
-            });
+            this.response_text = GermanTexts['email-error-message'];
         }
     }, (result) => {
-      this.storage.get(Constants.storageKeyLang).then((lang)=>{
-        this.translateService.getTranslation(lang).subscribe((value) => {
-          this.response_text = value['email-error-message'];
-        });
-      });
+          this.response_text = GermanTexts['email-error-message'];
     });
   }
 }

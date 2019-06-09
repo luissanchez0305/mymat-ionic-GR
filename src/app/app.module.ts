@@ -3,10 +3,8 @@ import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicStorageModule } from '@ionic/storage';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { HttpModule } from '@angular/http'; // solo se usa para hacer la prueba de conexion con el MyMat
-import { HttpClientModule, HttpClient } from '@angular/common/http';
+import { HttpClientModule } from '@angular/common/http';
 import { HTTP } from '@ionic-native/http';
-import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
-import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { NetworkInterface } from '@ionic-native/network-interface';
 //import { Network } from '@ionic-native/network';
 import { LocalNotifications } from '@ionic-native/local-notifications';
@@ -31,10 +29,6 @@ import { APIServiceProvider } from '../providers/api-service/api-service';
 import { Network } from '@ionic-native/network';
 import { Device } from '@ionic-native/device';
 
-export function HttpLoaderFactory(http: HttpClient) {
-    return new TranslateHttpLoader(http, './assets/i18n/', '.json');
-}
-
 @NgModule({
   declarations: [
     MyApp,
@@ -54,14 +48,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     HttpModule,
     HttpClientModule,
     IonicModule.forRoot(MyApp),
-    IonicStorageModule.forRoot(),
-    TranslateModule.forRoot({
-        loader: {
-            provide: TranslateLoader,
-            useFactory: HttpLoaderFactory,
-            deps: [HttpClient]
-        }
-    })
+    IonicStorageModule.forRoot()
   ],
   bootstrap: [IonicApp],
   entryComponents: [

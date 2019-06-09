@@ -28,19 +28,19 @@
 
     <div class="bubbleexplain">
         <br>
-        <b>{{ 'tap-bubble' | translate }}</b><br><br>
+        <b>{{ tap_bubble }}</b><br><br>
         <!--<p translate="press-hold"> Press and hold a hearth to remove</p>-->
-        <button [disabled]="!EnableRunRoutine" class="greenbtn" menu-close nav-transition="ios" nav-direction="forward" (click)="runRoutine()" href="#">{{ 'run-routine' | translate }}</button>
+        <button [disabled]="!EnableRunRoutine" class="greenbtn" menu-close nav-transition="ios" nav-direction="forward" (click)="runRoutine()" href="#">{{ run_routine }}</button>
         <br><br>
-        <button [disabled]="!showAddFavoriteButton" class="orangebtn" menu-close nav-transition="ios" nav-direction="forward" (click)="openAddFavorite()" href="#">{{ 'add-favorite' | translate }}</button>
+        <button [disabled]="!showAddFavoriteButton" class="orangebtn" menu-close nav-transition="ios" nav-direction="forward" (click)="openAddFavorite()" href="#">{{ add_favorite }}</button>
         <br><br>
-        <button class="graybtn" menu-close nav-transition="ios" nav-direction="forward" (click)="cleanRoutine()" href="#">{{ 'clean-routine' | translate }}</button>
+        <button class="graybtn" menu-close nav-transition="ios" nav-direction="forward" (click)="cleanRoutine()" href="#">{{ clean_routine }}</button>
 
     </div>
-    <div text-center text-uppercase padding-top *ngIf="showLatestSection">{{ 'latest-routines' | translate }}</div>
+    <div text-center text-uppercase padding-top *ngIf="showLatestSection">{{ latest_routines }}</div>
     <div *ngFor="let routine of latestRoutines">
         <div text-center padding-top>
-          {{ routine.day }} {{ routine.month | translate }} {{ routine.year }} {{ routine.hours }}:{{ routine.minutes }}
+          {{ routine.day }} {{ routine.month }} {{ routine.year }} {{ routine.hours }}:{{ routine.minutes }}
         </div>
         <!--<div class="purchase-status">{{ routine.purchaseStatus }}</div>-->
 
@@ -50,7 +50,7 @@
                 routine.programs[2].apiName,routine.programs[3].apiName)">
 
                 <ion-item *ngFor="let program of routine.programs" class="addiction center">
-                     {{ program.name | translate }}
+                     {{ program.name }}
                 </ion-item>
 
             </ion-list>

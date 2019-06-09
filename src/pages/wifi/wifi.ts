@@ -4,8 +4,8 @@ import { Storage } from '@ionic/storage';
 import { APIServiceProvider } from '../../providers/api-service/api-service';
 import { PlayingPage } from '../playing/playing';
 import { Constants } from '../../services/constants';
+import { GermanTexts } from '../../services/german-texts';
 import { NetworkInterface } from '@ionic-native/network-interface';
-import { TranslateService } from '@ngx-translate/core';
 
 /**
  * Generated class for the WifiPage page.
@@ -45,12 +45,8 @@ export class WifiPage {
   public showIframeStatus : boolean;
 
   constructor(public navCtrl: NavController, public navParams: NavParams, private storage: Storage, public apiService : APIServiceProvider,
-    private translateService: TranslateService, public networkInterface : NetworkInterface, public platform: Platform) {
-      this.storage.get(Constants.storageKeyLang).then((lang)=>{
-        this.translateService.getTranslation(lang).subscribe((value) =>{
-          this.coilText = typeof value['coil'] === 'undefined' ? 'Antena' : value['coil'];
-        });
-      });
+      public networkInterface : NetworkInterface, public platform: Platform) {
+      this.coilText = typeof GermanTexts['coil'] === 'undefined' ? 'Antena' : GermanTexts['coil'];
       this.program1 = this.navParams.get('prog1');
       this.program2 = this.navParams.get('prog2');
       this.program3 = this.navParams.get('prog3');
@@ -272,10 +268,10 @@ export class WifiPage {
 
             let programsArray = [];
             for(let i = 0; i < programs.length; i++){
-              programsArray.push({ "apiName" : programs[i].split('|')[3], "name" : programs[i].split('|')[1] });
+              programsArray.push({ "apiName" : programs[i].split('|')[3], "name" : GermanTexts[programs[i].split('|')[1]] });
             }
 
-            latestArray.push({ "day" : day, "month" : Constants.monthNames[monthIndex], "year" : year, "hours" : this.fixZeroOnNumber(hours), "minutes" : this.fixZeroOnNumber(minutes), "programs" : programsArray });
+            latestArray.push({ "day" : day, "month" : GermanTexts[Constants.monthNames[monthIndex]], "year" : year, "hours" : this.fixZeroOnNumber(hours), "minutes" : this.fixZeroOnNumber(minutes), "programs" : programsArray });
             if(routines != null && routines[0] != null){
               latestArray.push(routines[0]);
             }
@@ -315,8 +311,8 @@ export class WifiPage {
 
     return val;
   }
-  
-  
+
+
 
   stop(){
     clearInterval(this.testStatusInterval);

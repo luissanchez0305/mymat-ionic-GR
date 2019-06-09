@@ -1,8 +1,8 @@
 import { Component, NgZone } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
-import { TranslateService } from '@ngx-translate/core';
 import { Storage } from '@ionic/storage';
 import { Constants } from '../../services/constants';
+import { GermanTexts } from '../../services/german-texts';
 import { LocalNotifications } from '@ionic-native/local-notifications';
 import { Platform } from 'ionic-angular';
 
@@ -32,8 +32,7 @@ export class PlayingPage {
   public timerId : number;
 
   constructor(public navCtrl: NavController, public navParams: NavParams, public storage: Storage,
-    public translateService: TranslateService, private localNotifications : LocalNotifications, public plt: Platform,
-    private zone: NgZone) {
+    private localNotifications : LocalNotifications, public plt: Platform, private zone: NgZone) {
       var _this = this;
       document.addEventListener('resume', () => {
         var t = new Date();
@@ -73,12 +72,7 @@ export class PlayingPage {
             var value = val.split('|');
             this.program1CurrentTimeDecreasingAsTime = value[2]; //this.convertSecondsToTime(value[2]);
             program1CurrentTimeDecreasing = value[2];
-
-            this.storage.get(Constants.storageKeyLang).then((lang)=>{
-              this.translateService.getTranslation(lang).subscribe((prog) =>{
-                this.programTitle1 = typeof prog[value[1]] === 'undefined' ? value[1] : prog[value[1]];
-              });
-            });
+            this.programTitle1 = typeof GermanTexts[value[1]] === 'undefined' ? value[1] : GermanTexts[value[1]];
           });
           break;
         case 2:
@@ -86,12 +80,7 @@ export class PlayingPage {
             var value = val.split('|');
             this.program2CurrentTimeDecreasingAsTime = value[2]; //this.convertSecondsToTime(value[2]);
             program2CurrentTimeDecreasing = value[2];
-
-            this.storage.get(Constants.storageKeyLang).then((lang)=>{
-              this.translateService.getTranslation(lang).subscribe((prog) =>{
-                this.programTitle2 = typeof prog[value[1]] === 'undefined' ? value[1] : prog[value[1]];
-              });
-            });
+            this.programTitle2 = typeof GermanTexts[value[1]] === 'undefined' ? value[1] : GermanTexts[value[1]];
           });
           break;
         case 3:
@@ -99,12 +88,7 @@ export class PlayingPage {
             var value = val.split('|');
             this.program3CurrentTimeDecreasingAsTime = value[2]; //this.convertSecondsToTime(value[2]);
             program3CurrentTimeDecreasing = value[2];
-
-            this.storage.get(Constants.storageKeyLang).then((lang)=>{
-              this.translateService.getTranslation(lang).subscribe((prog) =>{
-                this.programTitle3 = typeof prog[value[1]] === 'undefined' ? value[1] : prog[value[1]];
-              });
-            });
+            this.programTitle3 = typeof GermanTexts[value[1]] === 'undefined' ? value[1] : GermanTexts[value[1]];
           });
           break;
         case 4:
@@ -112,12 +96,7 @@ export class PlayingPage {
             var value = val.split('|');
             this.program4CurrentTimeDecreasingAsTime = value[2]; //this.convertSecondsToTime(value[2]);
             program4CurrentTimeDecreasing = value[2];
-
-            this.storage.get(Constants.storageKeyLang).then((lang)=>{
-              this.translateService.getTranslation(lang).subscribe((prog) =>{
-                this.programTitle4 = typeof prog[value[1]] === 'undefined' ? value[1] : prog[value[1]];
-              });
-            });
+            this.programTitle4 = typeof GermanTexts[value[1]] === 'undefined' ? value[1] : GermanTexts[value[1]];
 
             if(program1CurrentTimeDecreasing > program2CurrentTimeDecreasing && program1CurrentTimeDecreasing > program3CurrentTimeDecreasing && program1CurrentTimeDecreasing > program4CurrentTimeDecreasing)
                 this.displayRunningTime = program1CurrentTimeDecreasing; //this.convertSecondsToTime(program1CurrentTimeDecreasing);
@@ -137,12 +116,10 @@ export class PlayingPage {
             this.startTimer(this.timerId);
 
             var $this = this;
-            this.storage.get(Constants.storageKeyLang).then((lang)=>{
-              this.translateService.getTranslation(lang).subscribe((prog) =>{
                 this.localNotifications.schedule({
                   id: 1,
                   title: 'MyMat Light',
-                  text: prog['time-expire-text'],
+                  text: GermanTexts['time-expire-text'],
                   sound: 'file://assets/sounds/' + (this.plt.is('ios') ? 'gong_c5.m4r' : 'gong_c5.mp3'),
                   trigger: { at: new Date(t.getTime() + this.getSeconds(this.displayRunningTime) * 1000) }
                 });
@@ -154,8 +131,6 @@ export class PlayingPage {
                     }
                   }
                 });
-              });
-            });
           });
           break;
       }

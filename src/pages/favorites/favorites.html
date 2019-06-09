@@ -7,34 +7,34 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      {{ 'favorite-routines' | translate }}
+      Lieblingsroutinen
     </ion-title>
     <ion-buttons start>
       <button ion-button (click)="dismiss()">
-        <span ion-text color="primary" showWhen="ios">{{ 'back' | translate }}</span>
+        <span ion-text color="primary" showWhen="ios">Rückkehr</span>
         <ion-icon name="md-close" showWhen="android,windows"></ion-icon>
       </button>
     </ion-buttons>
   </ion-toolbar>
-  <ion-item class="no-conection" *ngIf="!isDeviceOnline">{{ 'offline-device-text' | translate }}</ion-item>
+  <ion-item class="no-conection" *ngIf="!isDeviceOnline">Your device is offline</ion-item>
 </ion-header>
 
 <ion-content>
   <div padding *ngIf="showSaveForm">
-    <div text-center text-uppercase>{{ 'add-favorites' | translate }}</div>
+    <div text-center text-uppercase>Fügen Sie diese Favoriten hinzu</div>
     <form [formGroup]="saveRoutineForm" (ngSubmit)="attemptSaveFavorite()">
       <ion-list>
         <ion-item class="item-input contact">
-          <ion-input type="text" placeholder="{{ 'name-text' | translate }}" formControlName="name" padding></ion-input>
+          <ion-input type="text" placeholder="Name:" formControlName="name" padding></ion-input>
         </ion-item>
         <ion-item>
-          <p>{{ program1 | translate }}</p>
-          <p>{{ program2 | translate }}</p>
-          <p>{{ program3 | translate }}</p>
-          <p>{{ program4 | translate  }}</p>
+          <p>{{ program1 }}</p>
+          <p>{{ program2 }}</p>
+          <p>{{ program3 }}</p>
+          <p>{{ program4 }}</p>
         </ion-item>
         <ion-item>
-          <button type="submit" ion-button item-left [disabled]="!saveRoutineForm.valid" class="button-contact button-calm">{{ 'button-save' | translate }}</button>
+          <button type="submit" ion-button item-left [disabled]="!saveRoutineForm.valid" class="button-contact button-calm">Sparen</button>
           <button ion-button icon-only item-end (click)="dismiss($event)" class="button-contact button-calm">
             <span ion-text color="primary" showWhen="ios">Cancel</span>
             <span ion-text showWhen="android,windows">Cancel</span>
@@ -44,9 +44,9 @@
     </form>
   </div>
   <div padding-top>
-    <div text-center text-uppercase>{{ 'my-favorites' | translate }}</div>
-    <div *ngIf="showLoadingListing" text-center>{{ 'loading' | translate }}...</div>
-    <div *ngIf="!isDeviceOnline" text-center>{{ 'connect-favorites-text' | translate }}...</div>
+    <div text-center text-uppercase>Meine Favoriten</div>
+    <div *ngIf="showLoadingListing" text-center>Wird geladen...</div>
+    <div *ngIf="!isDeviceOnline" text-center>Verbinden Sie das Gerät mit Ihren bevorzugten Routinen...</div>
     <ion-item *ngFor="let item of favoritesList" (click)="showProgram(item.id, item.name, item.program1, item.program2, item.program3, item.program4)">
       {{item.name}}
       <button ion-button icon-only item-end (click)="delete($event, item.id)">

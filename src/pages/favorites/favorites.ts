@@ -3,9 +3,9 @@ import { NavParams, ViewController, LoadingController, AlertController, Events }
 import { RoutinesProvider } from '../../providers/routines/routines';
 import { Validators, FormBuilder, FormGroup } from '@angular/forms';
 import { APIServiceProvider } from '../../providers/api-service/api-service';
-import { TranslateService } from '@ngx-translate/core';
 import { Network } from '@ionic-native/network';
 import { Constants } from '../../services/constants';
+import { GermanTexts } from '../../services/german-texts';
 import { Storage } from '@ionic/storage';
 
 /**
@@ -34,16 +34,16 @@ export class FavoritesPage {
   public offline_device : string;
 
   constructor(public navParams: NavParams, public viewCtrl: ViewController, public routines: RoutinesProvider,
-    private formBuilder: FormBuilder, private translateService: TranslateService, private storage: Storage,
-    public apiService : APIServiceProvider, private network: Network, public loadingCtrl: LoadingController,
-    public alertCtrl : AlertController, private zone: NgZone, public events: Events) {
+    private formBuilder: FormBuilder, private storage: Storage, public apiService : APIServiceProvider,
+    private network: Network, public loadingCtrl: LoadingController, public alertCtrl : AlertController,
+    private zone: NgZone, public events: Events) {
     this.isDeviceOnline = true;
     var programs = this.routines.getPrograms();
     if(programs[0] && programs[1] && programs[2] && programs[3]){
-      this.program1 = programs[0];
-      this.program2 = programs[1];
-      this.program3 = programs[2];
-      this.program4 = programs[3];
+      this.program1 = GermanTexts[programs[0]];
+      this.program2 = GermanTexts[programs[1]];
+      this.program3 = GermanTexts[programs[2]];
+      this.program4 = GermanTexts[programs[3]];
     }
     this.saveRoutineForm = this.formBuilder.group({
       name: ['', Validators.required]
@@ -127,29 +127,24 @@ export class FavoritesPage {
   }
 
   showProgram(id, name, program1, program2, program3, program4){
-
-    this.storage.get(Constants.storageKeyLang).then((lang)=>{
-      this.translateService.getTranslation(lang).subscribe((value) => {
-        let program_1 = (program1 == 'E-SMOG' ? program1 : value[program1]);
-        let program_2 = (program2 == 'E-SMOG' ? program2 : value[program2]);
-        let program_3 = (program3 == 'E-SMOG' ? program3 : value[program3]);
-        let program_4 = (program4 == 'E-SMOG' ? program4 : value[program4]);
-        let alert = this.alertCtrl.create({
-          title: 'Rutina - ' + name,
-          message: program_1 + '\n' + program_2 + '\n' + program_3 + '\n' + program_4,
-          buttons: [
-                    {
-                      text: value['choose'],
-                      handler: data => {
-                        this.events.publish('addProgramsEvent', { name : program1 }, { name : program2 }, { name : program3 }, { name : program4 });
-                      }
-                    }
-                  ]
-        });
-        alert.present();
-        // Mostrar texto en label debajo del boton
-      });
+    let program_1 = (program1 == 'E-SMOG' ? program1 : GermanTexts[program1]);
+    let program_2 = (program2 == 'E-SMOG' ? program2 : GermanTexts[program2]);
+    let program_3 = (program3 == 'E-SMOG' ? program3 : GermanTexts[program3]);
+    let program_4 = (program4 == 'E-SMOG' ? program4 : GermanTexts[program4]);
+    let alert = this.alertCtrl.create({
+      title: 'Rutina - ' + name,
+      message: program_1 + '\n' + program_2 + '\n' + program_3 + '\n' + program_4,
+      buttons: [
+                {
+                  text: GermanTexts['choose'],
+                  handler: data => {
+                    this.events.publish('addProgramsEvent', { name : program1 }, { name : program2 }, { name : program3 }, { name : program4 });
+                  }
+                }
+              ]
     });
+    alert.present();
+    // Mostrar texto en label debajo del boton
 
   }
 
@@ -159,15 +154,14 @@ export class FavoritesPage {
     this.storage.get(Constants.deviceInfoKey).then((device)=>{
 
       var formData = new FormData();
-
+      let programs = this.routines.getPrograms();
       formData.append('type', 'new');
       formData.append('email', device.email);
       formData.append('name', this.saveRoutineForm.value.name);
-      formData.append('program1', this.program1);
-      formData.append('program2', this.program2);
-      formData.append('program3', this.program3);
-      formData.append('program4', this.program4);
-
+      formData.append('program1', programs[0]);
+      formData.append('program2', programs[1]);
+      formData.append('program3', programs[2]);
+      formData.append('program4', programs[3]);
 
       this.apiService.runPost('favorites.php',formData).then((result) => {
         this.responseData = result;

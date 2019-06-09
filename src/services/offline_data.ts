@@ -1,28 +1,28 @@
 export var Data = { Groups : [
         {
             category: 'basic',
-            name: 'pain-relief-upper',
+            textName: '', name: 'pain-relief-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Pain_Conditions",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Nervous_System",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Peace",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Regeneration",
                     runningtime: "",
                     description: ''
@@ -32,28 +32,28 @@ export var Data = { Groups : [
 
         {
             category: 'basic',
-            name: 'injury-upper',
+            textName: '', name: 'injury-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Injury",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Lymphatic_System",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Bone_Tissues",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Energy_Balancing",
                     runningtime: "",
                     description: ''
@@ -63,28 +63,28 @@ export var Data = { Groups : [
 
         {
             category: 'basic',
-            name: 'stress-relief-upper',
+            textName: '', name: 'stress-relief-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Frustration",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Electro_Smog",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Relaxation",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Energy_Balancing",
                     runningtime: "",
                     description: ''
@@ -93,28 +93,28 @@ export var Data = { Groups : [
         },
         {
             category: 'basic',
-            name: 'immune-system-upper',
+            textName: '', name: 'immune-system-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Immune_System",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Lymphatic_System",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Frustration",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Energy_Balancing",
                     runningtime: "",
                     description: ''
@@ -123,28 +123,28 @@ export var Data = { Groups : [
         },
         {
             category: 'basic',
-            name: 'respiratory-system-upper',
+            textName: '', name: 'respiratory-system-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Respiratory_System",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Sinus_Cavities",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Immune_System",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Lung_Meridian",
                     runningtime: "",
                     description: ''
@@ -153,28 +153,28 @@ export var Data = { Groups : [
         },
         {
             category: 'basic',
-            name: 'detoxification-upper',
+            textName: '', name: 'detoxification-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Detoxification",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Digestive_System",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Large_Intestine_Meridian",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Intestinal_Flora",
                     runningtime: "",
                     description: ''
@@ -183,28 +183,28 @@ export var Data = { Groups : [
         },
         {
             category: 'basic',
-            name: 'headache-upper',
+            textName: '', name: 'headache-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Headache",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Peace",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Energy_Balancing",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Liver_Meridian",
                     runningtime: "",
                     description: ''
@@ -213,28 +213,28 @@ export var Data = { Groups : [
         },
         {
             category: 'basic',
-            name: 'grounding-upper',
+            textName: '', name: 'grounding-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Energy_Balancing",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Electro_Smog",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Earth_Element",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Root_Chakra",
                     runningtime: "",
                     description: ''
@@ -244,28 +244,28 @@ export var Data = { Groups : [
 
         {
             category: 'business and travel',
-            name: 'energy-booster-upper',
+            textName: '', name: 'energy-booster-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Energy_Booster",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Exhaustion",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Adrenal_Gland",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Brow_Chakra",
                     runningtime: "",
                     description: ''
@@ -275,28 +275,28 @@ export var Data = { Groups : [
         },
         {
             category: 'business and travel',
-            name: 'JET-LAG',
+            textName: '', name: 'JET-LAG',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Jet-Lag/Climate_Change",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Electro_Smog",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Relaxation",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Earth_Element",
                     runningtime: "",
                     description: ''
@@ -306,28 +306,28 @@ export var Data = { Groups : [
         },
         {
             category: 'business and travel',
-            name: 'JET-LAG',
+            textName: '', name: 'JET-LAG',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Jet-Lag/Climate_Change",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Exhaustion",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Circulatory_System",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Energy_Booster",
                     runningtime: "",
                     description: ''
@@ -337,28 +337,28 @@ export var Data = { Groups : [
         },
         {
             category: 'business and travel',
-            name: 'concentration-upper',
+            textName: '', name: 'concentration-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Concentration",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Discernment",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Adrenal_Gland",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Brow_Chakra",
                     runningtime: "",
                     description: ''
@@ -368,28 +368,28 @@ export var Data = { Groups : [
         },
         {
             category: 'business and travel',
-            name: 'digestion-upper',
+            textName: '', name: 'digestion-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Digestive_System",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Detoxification",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Mineral_Metabolic_Activity",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Intestinal_Flora",
                     runningtime: "",
                     description: ''
@@ -398,28 +398,28 @@ export var Data = { Groups : [
         },
         {
             category: 'business and travel',
-            name: 'respiratory-system-upper',
+            textName: '', name: 'respiratory-system-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Respiratory_System",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Immune_System",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Lymphatic_System",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Lung_Meridian",
                     runningtime: "",
                     description: ''
@@ -428,28 +428,28 @@ export var Data = { Groups : [
                     },
         {
             category: 'business and travel',
-            name: 'lower-backache-upper',
+            textName: '', name: 'lower-backache-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Backache",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Frustration",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Root_Chakra",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Kidney_Meridian",
                     runningtime: "",
                     description: ''
@@ -458,28 +458,28 @@ export var Data = { Groups : [
         },
         {
             category: 'business and travel',
-            name: 'neck-shoulder-upper',
+            textName: '', name: 'neck-shoulder-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Neck/Shoulder",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Frustration",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Muscle_Tissues",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Gallbladder_Meridian",
                     runningtime: "",
                     description: ''
@@ -491,28 +491,28 @@ export var Data = { Groups : [
 
         {
             category: 'business and travel',
-            name: 'sleep-enhancer-upper',
+            textName: '', name: 'sleep-enhancer-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Sleep_Enhancer",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Electro_Smog",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Relaxation",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Frustration",
                     runningtime: "",
                     description: ''
@@ -522,28 +522,28 @@ export var Data = { Groups : [
 
         {
             category: 'family',
-            name: 'children-upper',
+            textName: '', name: 'children-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Child_Development",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Bone_Tissues",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Muscle_Tissues",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Nervous_System",
                     runningtime: "",
                     description: ''
@@ -554,28 +554,28 @@ export var Data = { Groups : [
 
         {
             category: 'family',
-            name: 'female-hormonal-imbalances-upper',
+            textName: '', name: 'female-hormonal-imbalances-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Female_Hormone_Balance",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Kidney_Meridian",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Liver_Meridian",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Sacral_Chakra",
                     runningtime: "",
                     description: ''
@@ -584,28 +584,28 @@ export var Data = { Groups : [
                     },
         {
             category: 'family',
-            name: 'male-hormonal-imbalances-upper',
+            textName: '', name: 'male-hormonal-imbalances-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Male_Hormone_Balance",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Circulatory_System",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Kidney_Meridian",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Sacral_Chakra",
                     runningtime: "",
                     description: ''
@@ -615,28 +615,28 @@ export var Data = { Groups : [
 
         {
             category: 'family',
-            name: 'cold-flu-upper',
+            textName: '', name: 'cold-flu-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Flu",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Immune_System",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Frustration",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Respiratory_System",
                     runningtime: "",
                     description: ''
@@ -646,28 +646,28 @@ export var Data = { Groups : [
 
         {
             category: 'family',
-            name: 'constipation-upper',
+            textName: '', name: 'constipation-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Constipation",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Digestive_System",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Gallbladder_Meridian",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Large_Intestine_Meridian",
                     runningtime: "",
                     description: ''
@@ -677,28 +677,28 @@ export var Data = { Groups : [
 
         {
             category: 'family',
-            name: 'diarrhea-upper',
+            textName: '', name: 'diarrhea-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Diarrhea",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Detoxification",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Digestive_System",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Intestinal_Flora",
                     runningtime: "",
                     description: ''
@@ -708,28 +708,28 @@ export var Data = { Groups : [
 
         {
             category: 'family',
-            name: 'ear-problems-upper',
+            textName: '', name: 'ear-problems-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Auditory_System",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Triple_Warmer_Meridian",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Brow_Chakra",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Energy_Balancing",
                     runningtime: "",
                     description: ''
@@ -739,28 +739,28 @@ export var Data = { Groups : [
 
         {
             category: 'family',
-            name: 'eyesight-upper',
+            textName: '', name: 'eyesight-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Eyesight",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Kidney_Meridian",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Liver_Meridian",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Brow_Chakra",
                     runningtime: "",
                     description: ''
@@ -770,28 +770,28 @@ export var Data = { Groups : [
 
         {
             category: 'family',
-            name: 'intestinal-flu-upper',
+            textName: '', name: 'intestinal-flu-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Immune_System",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Flu",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Detoxification",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Intestinal_Flora",
                     runningtime: "",
                     description: ''
@@ -802,28 +802,28 @@ export var Data = { Groups : [
 
         {
             category: 'athlete',
-            name: 'energy-booster-upper',
+            textName: '', name: 'energy-booster-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Energy_Booster",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Adrenal_Gland",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Circulatory_System",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Pericardium_Meridian",
                     runningtime: "",
                     description: ''
@@ -833,28 +833,28 @@ export var Data = { Groups : [
 
         {
             category: 'athlete',
-            name: 'regeneration-upper',
+            textName: '', name: 'regeneration-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Regeneration",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Lymphatic_System",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Liver_Meridian",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Vitality",
                     runningtime: "",
                     description: ''
@@ -864,28 +864,28 @@ export var Data = { Groups : [
 
         {
             category: 'athlete',
-            name: 'respiratory-system-upper',
+            textName: '', name: 'respiratory-system-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Respiratory_System",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Immune_System",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Sinus_Cavities",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Lung_Meridian",
                     runningtime: "",
                     description: ''
@@ -895,28 +895,28 @@ export var Data = { Groups : [
 
         {
             category: 'athlete',
-            name: 'injury-upper',
+            textName: '', name: 'injury-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Injury",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Bone_Tissues",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Muscle_Tissues",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Pain_Conditions",
                     runningtime: "",
                     description: ''
@@ -925,28 +925,28 @@ export var Data = { Groups : [
                     },
         {
             category: 'athlete',
-            name: 'pain-upper',
+            textName: '', name: 'pain-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Nervous_System",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Pain_Conditions",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Regeneration",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Energy_Balancing",
                     runningtime: "",
                     description: ''
@@ -956,28 +956,28 @@ export var Data = { Groups : [
 
         {
             category: 'athlete',
-            name: 'backache-upper',
+            textName: '', name: 'backache-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Backache",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Neck/Shoulder",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Vertebrae",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Gallbladder_Meridian",
                     runningtime: "",
                     description: ''
@@ -987,28 +987,28 @@ export var Data = { Groups : [
 
         {
             category: 'athlete',
-            name: 'muscles-upper',
+            textName: '', name: 'muscles-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Muscle_Tissues",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Liver_Meridian",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Connective_Tissues",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Regeneration",
                     runningtime: "",
                     description: ''
@@ -1018,28 +1018,28 @@ export var Data = { Groups : [
 
         {
             category: 'athlete',
-            name: 'immune-system-upper',
+            textName: '', name: 'immune-system-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Immune_System",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Lymphatic_System",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Frustration",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Respiratory_System",
                     runningtime: "",
                     description: ''
@@ -1049,28 +1049,28 @@ export var Data = { Groups : [
 
         {
             category: 'spa',
-            name: 'anti-aging-upper',
+            textName: '', name: 'anti-aging-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Bone_Tissues",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Anti_Aging",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Energy_Balancing",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Connective_Tissues",
                     runningtime: "",
                     description: ''
@@ -1080,28 +1080,28 @@ export var Data = { Groups : [
 
         {
             category: 'spa',
-            name: 'weight-control-upper',
+            textName: '', name: 'weight-control-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Addiction",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Frustration",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Weight_Control",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Triple_Warmer_Meridian",
                     runningtime: "",
                     description: ''
@@ -1110,28 +1110,28 @@ export var Data = { Groups : [
                     },
         {
             category: 'spa',
-            name: 'detoxification-upper',
+            textName: '', name: 'detoxification-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Digestive_System",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Intestinal_Flora",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Detoxification",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Mineral_Metabolic_Activity",
                     runningtime: "",
                     description: ''
@@ -1141,28 +1141,28 @@ export var Data = { Groups : [
 
         {
             category: 'spa',
-            name: 'skin-conditions-upper',
+            textName: '', name: 'skin-conditions-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Connective_Tissues",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Skin_Conditions",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Detoxification",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Lung_Meridian",
                     runningtime: "",
                     description: ''
@@ -1172,28 +1172,28 @@ export var Data = { Groups : [
 
         {
             category: 'spa',
-            name: 'hair-growth-upper',
+            textName: '', name: 'hair-growth-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Kidney_Meridian",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Hair_Growth",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Detoxification",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Sacral_Chakra",
                     runningtime: "",
                     description: ''
@@ -1203,28 +1203,28 @@ export var Data = { Groups : [
 
         {
             category: 'spa',
-            name: 'low-physical-drive-upper',
+            textName: '', name: 'low-physical-drive-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Pericardium_Meridian",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Adrenal_Gland",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Low_Physical_Drive",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Circulatory_System",
                     runningtime: "",
                     description: ''
@@ -1234,28 +1234,28 @@ export var Data = { Groups : [
 
         {
             category: 'spa',
-            name: 'low-mental-drive-upper',
+            textName: '', name: 'low-mental-drive-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Sacral_Chakra",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Low_Mental_Drive",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Frustration",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Nervous_System",
                     runningtime: "",
                     description: ''
@@ -1267,28 +1267,28 @@ export var Data = { Groups : [
 
         {
             category: 'stress relief',
-            name: 'stress-relief-upper',
+            textName: '', name: 'stress-relief-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Joy",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Energy_Balancing",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Electro_Smog",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Frustration",
                     runningtime: "",
                     description: ''
@@ -1297,28 +1297,28 @@ export var Data = { Groups : [
                     },
         {
             category: 'stress relief',
-            name: 'vitality-upper',
+            textName: '', name: 'vitality-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Nervous_System",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Joy",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Energy_Booster",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Vitality",
                     runningtime: "",
                     description: ''
@@ -1327,28 +1327,28 @@ export var Data = { Groups : [
                     },
         {
             category: 'stress relief',
-            name: 'sleep-enhancer-upper',
+            textName: '', name: 'sleep-enhancer-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Relaxation",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Sleep_Enhancer",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Peace",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Electro_Smog",
                     runningtime: "",
                     description: ''
@@ -1358,28 +1358,28 @@ export var Data = { Groups : [
 
         {
             category: 'stress relief',
-            name: 'energy-booster-upper',
+            textName: '', name: 'energy-booster-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Adrenal_Gland",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Energy_Booster",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Circulatory_System",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Exhaustion",
                     runningtime: "",
                     description: ''
@@ -1390,28 +1390,28 @@ export var Data = { Groups : [
 
         {
             category: 'stress relief',
-            name: 'hypertension-upper',
+            textName: '', name: 'hypertension-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Pericardium_Meridian",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Hypertension",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Circulatory_System",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Heart_Function",
                     runningtime: "",
                     description: ''
@@ -1421,28 +1421,28 @@ export var Data = { Groups : [
 
         {
             category: 'stress relief',
-            name: 'thyroid-upper',
+            textName: '', name: 'thyroid-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Electro_Smog",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Thyroid_Glands",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Frustration",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Throat_Chakra",
                     runningtime: "",
                     description: ''
@@ -1451,28 +1451,28 @@ export var Data = { Groups : [
                     },
         {
             category: 'stress relief',
-            name: 'low-mental-drive-upper',
+            textName: '', name: 'low-mental-drive-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Sacral_Chakra",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Low_Mental_Drive",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Frustration",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Nervous_System",
                     runningtime: "",
                     description: ''
@@ -1482,28 +1482,28 @@ export var Data = { Groups : [
 
         {
             category: 'senior',
-            name: 'regeneration-upper',
+            textName: '', name: 'regeneration-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Lymphatic_System",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Regeneration",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Circulatory_System",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Connective_Tissues",
                     runningtime: "",
                     description: ''
@@ -1513,28 +1513,28 @@ export var Data = { Groups : [
 
         {
             category: 'senior',
-            name: 'vitality-upper',
+            textName: '', name: 'vitality-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Energy_Booster",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Adrenal_Gland",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Vitality",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Circulatory_System",
                     runningtime: "",
                     description: ''
@@ -1544,28 +1544,28 @@ export var Data = { Groups : [
 
         {
             category: 'senior',
-            name: 'joy-upper',
+            textName: '', name: 'joy-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Peace",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Frustration",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Joy",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Metal_Element",
                     runningtime: "",
                     description: ''
@@ -1575,28 +1575,28 @@ export var Data = { Groups : [
 
         {
             category: 'senior',
-            name: 'sleep-enhancer-upper',
+            textName: '', name: 'sleep-enhancer-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Electro_Smog",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Relaxation",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Sleep_Enhancer",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Frustration",
                     runningtime: "",
                     description: ''
@@ -1606,28 +1606,28 @@ export var Data = { Groups : [
 
         {
             category: 'senior',
-            name: 'heart-function-upper',
+            textName: '', name: 'heart-function-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Fire_Element",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Heart_Function",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Triple_Warmer_Meridian",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Heart_Chakra",
                     runningtime: "",
                     description: ''
@@ -1637,28 +1637,28 @@ export var Data = { Groups : [
 
         {
             category: 'senior',
-            name: 'respiratory-system-upper',
+            textName: '', name: 'respiratory-system-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Respiratory_System",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Sinus_Cavities",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Immune_System",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Lung_Meridian",
                     runningtime: "",
                     description: ''
@@ -1667,28 +1667,28 @@ export var Data = { Groups : [
                     },
         {
             category: 'senior',
-            name: 'hypertension-upper',
+            textName: '', name: 'hypertension-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Pericardium_Meridian",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Hypertension",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Heart_Chakra",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Circulatory_System",
                     runningtime: "",
                     description: ''
@@ -1698,28 +1698,28 @@ export var Data = { Groups : [
 
         {
             category: 'senior',
-            name: 'glucose-metabolic-disorders-upper',
+            textName: '', name: 'glucose-metabolic-disorders-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Peace",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Glucose_Metabolic_Disorders",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Spleen_Meridian",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Energy_Balancing",
                     runningtime: "",
                     description: ''
@@ -1729,28 +1729,28 @@ export var Data = { Groups : [
 
         {
             category: 'senior',
-            name: 'hemorrhoids-upper',
+            textName: '', name: 'hemorrhoids-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Hemorrhoids",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Constipation",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Relaxation",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Root_Chakra",
                     runningtime: "",
                     description: ''
@@ -1760,28 +1760,28 @@ export var Data = { Groups : [
 
         {
             category: 'senior',
-            name: 'urinary-system-upper',
+            textName: '', name: 'urinary-system-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Kidney_Meridian",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Urinary_System/Cystitis",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Urinary_Bladder_Meridian",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Sacral_Chakra",
                     runningtime: "",
                     description: ''
@@ -1791,28 +1791,28 @@ export var Data = { Groups : [
 
         {
             category: 'senior',
-            name: 'cold-flu-upper',
+            textName: '', name: 'cold-flu-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Immune_System",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Flu",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Lymphatic_System",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Respiratory_System",
                     runningtime: "",
                     description: ''
@@ -1822,28 +1822,28 @@ export var Data = { Groups : [
 
         {
             category: 'senior',
-            name: 'pain-upper',
+            textName: '', name: 'pain-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Nervous_System",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Pain_Conditions",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Regeneration",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Energy_Balancing",
                     runningtime: "",
                     description: ''
@@ -1853,28 +1853,28 @@ export var Data = { Groups : [
 
         {
             category: 'chakra balancing',
-            name: 'lower-chakra-balancing-upper',
+            textName: '', name: 'lower-chakra-balancing-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Root_Chakra",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Sacral_Chakra",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Solar_Plexus_Chakra",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Earth_Element",
                     runningtime: "",
                     description: ''
@@ -1884,28 +1884,28 @@ export var Data = { Groups : [
 
         {
             category: 'chakra balancing',
-            name: 'upper-chakra-balancing-upper',
+            textName: '', name: 'upper-chakra-balancing-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Heart_Chakra",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Throat_Chakra",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Brow_Chakra",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Crown_Chakra",
                     runningtime: "",
                     description: ''
@@ -1915,28 +1915,28 @@ export var Data = { Groups : [
 
         {
             category: 'chakra balancing',
-            name: 'meditation-basics-upper',
+            textName: '', name: 'meditation-basics-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Meditation_1",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Root_Chakra",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Sacral_Chakra",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Solar_Plexus_Chakra",
                     runningtime: "",
                     description: ''
@@ -1946,28 +1946,28 @@ export var Data = { Groups : [
 
         {
             category: 'chakra balancing',
-            name: 'meditation-medium-upper',
+            textName: '', name: 'meditation-medium-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Meditation_2",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Heart_Chakra",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Throat_Chakra",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Peace",
                     runningtime: "",
                     description: ''
@@ -1975,28 +1975,28 @@ export var Data = { Groups : [
              ]
                     }, {
             category: 'chakra balancing',
-            name: 'meditation-advanced-upper',
+            textName: '', name: 'meditation-advanced-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Meditation_3",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Brow_Chakra",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Crown_Chakra",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Joy",
                     runningtime: "",
                     description: ''
@@ -2006,28 +2006,28 @@ export var Data = { Groups : [
 
         {
             category: 'elements',
-            name: 'earth-element-upper',
+            textName: '', name: 'earth-element-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Stomach_Meridian",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Spleen_Meridian",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Earth_Element",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Muscle_Tissues",
                     runningtime: "",
                     description: ''
@@ -2037,28 +2037,28 @@ export var Data = { Groups : [
 
         {
             category: 'elements',
-            name: 'fire-element-upper',
+            textName: '', name: 'fire-element-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Heart_Meridian",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Small_Intestine_Meridian",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Fire_Element",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Circulatory_System",
                     runningtime: "",
                     description: ''
@@ -2067,28 +2067,28 @@ export var Data = { Groups : [
             },
         {
             category: 'elements',
-            name: 'fire-element-upper',
+            textName: '', name: 'fire-element-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Pericardium_Meridian",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Triple_Warmer_Meridian",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Fire_Element",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Heart_Chakra",
                     runningtime: "",
                     description: ''
@@ -2097,28 +2097,28 @@ export var Data = { Groups : [
             },
         {
             category: 'elements',
-            name: 'metal-element-upper',
+            textName: '', name: 'metal-element-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Lung_Meridian",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Large_Intestine_Meridian",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Metal_Element",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Skin_Conditions",
                     runningtime: "",
                     description: ''
@@ -2127,28 +2127,28 @@ export var Data = { Groups : [
             },
         {
             category: 'elements',
-            name: 'water-element-upper',
+            textName: '', name: 'water-element-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Kidney_Meridian",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Urinary_Bladder_Meridian",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Water_Element",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Bone_Tissues",
                     runningtime: "",
                     description: ''
@@ -2157,28 +2157,28 @@ export var Data = { Groups : [
             },
         {
             category: 'elements',
-            name: 'wood-element-upper',
+            textName: '', name: 'wood-element-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Liver_Meridian",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Gallbladder_Meridian",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Wood_Element",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Eyesight",
                     runningtime: "",
                     description: ''
@@ -2187,28 +2187,28 @@ export var Data = { Groups : [
             },
         {
             category: 'elements',
-            name: 'liver-function-upper',
+            textName: '', name: 'liver-function-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Liver_Meridian",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Gallbladder_Meridian",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Detoxification",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Solar_Plexus_Chakra",
                     runningtime: "",
                     description: ''
@@ -2217,28 +2217,28 @@ export var Data = { Groups : [
             },
         {
             category: 'elements',
-            name: 'heart-function-upper',
+            textName: '', name: 'heart-function-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Heart_Meridian",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Small_Intestine_Meridian",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Relaxation",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Heart_Chakra",
                     runningtime: "",
                     description: ''
@@ -2247,28 +2247,28 @@ export var Data = { Groups : [
         },
         {
             category: 'elements',
-            name: 'kidney-function-upper',
+            textName: '', name: 'kidney-function-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Kidney_Meridian",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Urinary_Bladder_Meridian",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Exhaustion",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Sacral_Chakra",
                     runningtime: "",
                     description: ''
@@ -2277,28 +2277,28 @@ export var Data = { Groups : [
         },
         {
             category: 'elements',
-            name: 'large-intestine-balancing-upper',
+            textName: '', name: 'large-intestine-balancing-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Large_Intestine_Meridian",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Lung_Meridian",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Immune_System",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Solar_Plexus_Chakra",
                     runningtime: "",
                     description: ''
@@ -2307,28 +2307,28 @@ export var Data = { Groups : [
         },
         {
             category: 'elements',
-            name: 'pericardium-flow-upper',
+            textName: '', name: 'pericardium-flow-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Pericardium_Meridian",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Triple_Warmer_Meridian",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Digestive_System",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Heart_Chakra",
                     runningtime: "",
                     description: ''
@@ -2337,28 +2337,28 @@ export var Data = { Groups : [
         },
         {
             category: 'elements',
-            name: 'stomach-meridian-upper',
+            textName: '', name: 'stomach-meridian-upper',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Stomach_Meridian",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Spleen_Meridian",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Frustration",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Solar_Plexus_Chakra",
                     runningtime: "",
                     description: ''
@@ -2367,28 +2367,28 @@ export var Data = { Groups : [
         },
         {
             category: 'petss',
-            name: 'routine-pets-upper1',
+            textName: '', name: 'routine-pets-upper1',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Immune_System",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Lymphatic_System",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Frustration",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Pet_1",
                     runningtime: "",
                     description: ''
@@ -2397,28 +2397,28 @@ export var Data = { Groups : [
         },
         {
             category: 'petss',
-            name: 'routine-pets-upper2',
+            textName: '', name: 'routine-pets-upper2',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Detoxification",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Digestive_System",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Large_Intestine_Meridian",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Pet_1",
                     runningtime: "",
                     description: ''
@@ -2427,28 +2427,28 @@ export var Data = { Groups : [
         },
         {
             category: 'petss',
-            name: 'routine-pets-upper3',
+            textName: '', name: 'routine-pets-upper3',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Digestive_System",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Liver_Meridian",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Intestinal_Flora",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Pet_1",
                     runningtime: "",
                     description: ''
@@ -2457,28 +2457,28 @@ export var Data = { Groups : [
         },
         {
             category: 'petss',
-            name: 'routine-pets-upper4',
+            textName: '', name: 'routine-pets-upper4',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Bone_Tissues",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Lymphatic_System",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Injury",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Pet_1",
                     runningtime: "",
                     description: ''
@@ -2487,28 +2487,28 @@ export var Data = { Groups : [
         },
         {
             category: 'petss',
-            name: 'routine-pets-upper5',
+            textName: '', name: 'routine-pets-upper5',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Skin_Conditions",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Connective_Tissues",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Injury",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Pet_1",
                     runningtime: "",
                     description: ''
@@ -2517,28 +2517,28 @@ export var Data = { Groups : [
         },
         {
             category: 'petss',
-            name: 'routine-pets-upper6',
+            textName: '', name: 'routine-pets-upper6',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Muscle_Tissues",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Lymphatic_System",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Injury",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Pet_1",
                     runningtime: "",
                     description: ''
@@ -2547,28 +2547,28 @@ export var Data = { Groups : [
         },
         {
             category: 'petss',
-            name: 'routine-pets-upper7',
+            textName: '', name: 'routine-pets-upper7',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Frustration",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Relaxation",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Energy_Balancing",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Pet_1",
                     runningtime: "",
                     description: ''
@@ -2577,28 +2577,28 @@ export var Data = { Groups : [
         },
         {
             category: 'petss',
-            name: 'routine-pets-upper8',
+            textName: '', name: 'routine-pets-upper8',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Respiratory_System",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Immune_System",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Lung_Meridian",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Pet_1",
                     runningtime: "",
                     description: ''
@@ -2607,28 +2607,28 @@ export var Data = { Groups : [
         },
         {
             category: 'petsx',
-            name: 'routine-petx-upper1',
+            textName: '', name: 'routine-petx-upper1',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Immune_System",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Lymphatic_System",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Frustration",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Pet_2",
                     runningtime: "",
                     description: ''
@@ -2637,28 +2637,28 @@ export var Data = { Groups : [
         },
         {
             category: 'petsx',
-            name: 'routine-petx-upper2',
+            textName: '', name: 'routine-petx-upper2',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Detoxification",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Digestive_System",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Large_Intestine_Meridian",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Pet_2",
                     runningtime: "",
                     description: ''
@@ -2667,28 +2667,28 @@ export var Data = { Groups : [
         },
         {
             category: 'petsx',
-            name: 'routine-petx-upper3',
+            textName: '', name: 'routine-petx-upper3',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Digestive_System",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Liver_Meridian",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Intestinal_Flora",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Pet_2",
                     runningtime: "",
                     description: ''
@@ -2697,28 +2697,28 @@ export var Data = { Groups : [
         },
         {
             category: 'petsx',
-            name: 'routine-petx-upper4',
+            textName: '', name: 'routine-petx-upper4',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Bone_Tissues",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Lymphatic_System",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Injury",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Pet_2",
                     runningtime: "",
                     description: ''
@@ -2727,28 +2727,28 @@ export var Data = { Groups : [
         },
         {
             category: 'petsx',
-            name: 'routine-petx-upper5',
+            textName: '', name: 'routine-petx-upper5',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Skin_Conditions",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Connective_Tissues",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Injury",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Pet_2",
                     runningtime: "",
                     description: ''
@@ -2757,28 +2757,28 @@ export var Data = { Groups : [
         },
         {
             category: 'petsx',
-            name: 'routine-petx-upper6',
+            textName: '', name: 'routine-petx-upper6',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Muscle_Tissues",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Lymphatic_System",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Injury",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Pet_2",
                     runningtime: "",
                     description: ''
@@ -2787,28 +2787,28 @@ export var Data = { Groups : [
         },
         {
             category: 'petsx',
-            name: 'routine-petx-upper7',
+            textName: '', name: 'routine-petx-upper7',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Frustration",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Relaxation",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Energy_Balancing",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Pet_2",
                     runningtime: "",
                     description: ''
@@ -2817,28 +2817,28 @@ export var Data = { Groups : [
         },
         {
             category: 'petsx',
-            name: 'routine-petx-upper8',
+            textName: '', name: 'routine-petx-upper8',
             programs: [
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Respiratory_System",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Immune_System",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Lung_Meridian",
                     runningtime: "",
                     description: ''
                 },
                 {
-                    name: '',
+                    textName: '', name: '',
                     apiName: "Pet_2",
                     runningtime: "",
                     description: ''
@@ -2848,517 +2848,517 @@ export var Data = { Groups : [
     ],
     Programs : [
         {
-            name: 'earth-element-upper',
+            textName: '', name: 'earth-element-upper',
             apiName: "Earth_Element",
             runningtime: "16:55",
             description: 'earth-element-description'
         },
         {
-            name: 'fire-element-upper',
+            textName: '', name: 'fire-element-upper',
             apiName: "Fire_Element",
             runningtime: "15:05",
             description: 'fire-element-description'
         },
         {
-            name: 'metal-element-upper',
+            textName: '', name: 'metal-element-upper',
             apiName: "Metal_Element",
             runningtime: "12:39",
             description: 'metal-element-description'
         },
         {
-            name: 'water-element-upper',
+            textName: '', name: 'water-element-upper',
             apiName: "Water_Element",
             runningtime: "17:20",
             description: 'water-element-description'
         },
         {
-            name: 'wood-element-upper',
+            textName: '', name: 'wood-element-upper',
             apiName: "Wood_Element",
             runningtime: "17:09",
             description: 'wood-element-description'
         },
         {
-            name: 'gallbladder-meridian-upper',
+            textName: '', name: 'gallbladder-meridian-upper',
             apiName: "Gallbladder_Meridian",
             runningtime: "20:39",
             description: 'gallbladder-meridian-description'
         },
         {
-            name: 'heart-meridian-upper',
+            textName: '', name: 'heart-meridian-upper',
             apiName: "Heart_Meridian",
             runningtime: "14:45",
             description: 'heart-meridian-description'
         },
         {
-            name: 'kidney-meridian-upper',
+            textName: '', name: 'kidney-meridian-upper',
             apiName: "Kidney_Meridian",
             runningtime: "16:27",
             description: 'kidney-meridian-description'
         },
         {
-            name: 'large-intestine-meridian-upper',
+            textName: '', name: 'large-intestine-meridian-upper',
             apiName: "Large_Intestine_Meridian",
             runningtime: "13:53",
             description: 'large-intestine-meridian-description'
         },
         {
-            name: 'liver-meridian-upper',
+            textName: '', name: 'liver-meridian-upper',
             apiName: "Liver_Meridian",
             runningtime: "16:11",
             description: 'liver-meridian-description'
         },
 
         {
-            name: 'lung-meridian-upper',
+            textName: '', name: 'lung-meridian-upper',
             apiName: "Lung_Meridian",
             runningtime: "16:38",
             description: 'lung-meridian-description'
         },
         {
-            name: 'pericardium-meridian-upper',
+            textName: '', name: 'pericardium-meridian-upper',
             apiName: "Pericardium_Meridian",
             runningtime: "21:55",
             description: 'pericardium-meridian-description'
         },
         {
-            name: 'small-intestine-meridian-upper',
+            textName: '', name: 'small-intestine-meridian-upper',
             apiName: "Small_Intestine_Meridian",
             runningtime: "13:25",
             description: 'small-intestine-meridian-description'
         },
         {
-            name: 'spleen-pancreas-meridian-upper',
+            textName: '', name: 'spleen-pancreas-meridian-upper',
             apiName: "Spleen_Meridian",
             runningtime: "15:37",
             description: 'spleen-pancreas-meridian-description'
         },
         {
-            name: 'stomach-meridian-upper',
+            textName: '', name: 'stomach-meridian-upper',
             apiName: "Stomach_Meridian",
             runningtime: "17:15",
             description: 'stomach-meridian-description'
         },
         {
-            name: 'triple-warmer-meridian-upper',
+            textName: '', name: 'triple-warmer-meridian-upper',
             apiName: "Triple_Warmer_Meridian",
             runningtime: "13:20",
             description: 'triple-warmer-meridian-description'
         },
         {
-            name: 'urinary-bladder-meridian-upper',
+            textName: '', name: 'urinary-bladder-meridian-upper',
             apiName: "Urinary_Bladder_Meridian",
             runningtime: "14:19",
             description: 'urinary-bladder-meridian-description'
         },
         {
-            name: "first-chakra-upper",
+            textName: '', name: "first-chakra-upper",
             apiName: "Root_Chakra",
             runningtime: "15:49",
             description: '1-chakra-description'
         },
         {
-            name: "second-chakra-upper",
+            textName: '', name: "second-chakra-upper",
             apiName: "Sacral_Chakra",
             runningtime: "13:57",
             description: '2-chakra-description'
         },
         {
-            name: "third-chakra-upper",
+            textName: '', name: "third-chakra-upper",
             apiName: "Solar_Plexus_Chakra",
             runningtime: "16:51",
             description: '3-chakra-description'
         },
         {
-            name: "fourth-chakra-upper",
+            textName: '', name: "fourth-chakra-upper",
             apiName: "Heart_Chakra",
             runningtime: "18:16",
             description: '4-chakra-description'
         },
         {
-            name: "fifth-chakra-upper",
+            textName: '', name: "fifth-chakra-upper",
             apiName: "Throat_Chakra",
             runningtime: "17:59",
             description: '5-chakra-description'
         },
         {
-            name: "sixth-chakra-upper",
+            textName: '', name: "sixth-chakra-upper",
             apiName: "Brow_Chakra",
             runningtime: "16:13",
             description: '6-chakra-description'
         },
         {
-            name: "seventh-chakra-upper",
+            textName: '', name: "seventh-chakra-upper",
             apiName: "Crown_Chakra",
             runningtime: "13:45",
             description: '7-chakra-description'
         },
         {
-            name: 'addiction-upper',
+            textName: '', name: 'addiction-upper',
             apiName: "Addiction",
             runningtime: "15:05",
             description: 'addiction-description'
         },
         {
-            name: 'adrenal-gland-upper',
+            textName: '', name: 'adrenal-gland-upper',
             apiName: "Adrenal_Gland",
             runningtime: "15:07",
             description: 'adrenal-gland-description'
         },
         {
-            name: 'anti-aging-upper',
+            textName: '', name: 'anti-aging-upper',
             apiName: "Anti_Aging",
             runningtime: "11:01",
             description: 'anti-aging-description',
         },
 
         {
-            name: 'auditory-upper',
+            textName: '', name: 'auditory-upper',
             apiName: "Auditory_System",
             runningtime: "14:31",
             description: 'auditory-description',
         },
         {
-            name: 'backache-upper',
+            textName: '', name: 'backache-upper',
             apiName: "Backache",
             runningtime: "16:30",
             description: 'backache-description',
         },
         {
-            name: 'bones-upper',
+            textName: '', name: 'bones-upper',
             apiName: "Bone_Tissues",
             runningtime: "15:04",
             description: 'bones-description'
         },
         {
-            name: 'child-developement-upper',
+            textName: '', name: 'child-developement-upper',
             apiName: "Child_Development",
             runningtime: "13:50",
             description: 'child-developement-description',
         },
         {
-            name: 'circulatory-system-upper',
+            textName: '', name: 'circulatory-system-upper',
             apiName: "Circulatory_System",
             runningtime: "15:06",
             description: 'circulatory-system-description',
         },
         {
-            name:  'concentration-upper',
+            textName: '', name:  'concentration-upper',
             apiName: "Concentration",
             runningtime: "21:19",
             description: 'concentration-description'
         },
         {
-            name: 'connective-tissue-upper',
+            textName: '', name: 'connective-tissue-upper',
             apiName: "Connective_Tissues",
             runningtime: "16:54",
             description: 'connective-tissue-description',
         },
         {
-            name: 'constipation-upper',
+            textName: '', name: 'constipation-upper',
             apiName: "Constipation",
             runningtime: "14:49",
             description: 'constipation-description'
         },
         {
-            name: 'detoxification-upper',
+            textName: '', name: 'detoxification-upper',
             apiName: "Detoxification",
             runningtime: "16:13",
             description: 'detoxification-description',
         },
         {
-            name: 'diarrhea-upper',
+            textName: '', name: 'diarrhea-upper',
             apiName: "Diarrhea",
             runningtime: "13:59",
             description: 'diarrhea-description'
         },
         {
-            name: 'digestive-system-upper',
+            textName: '', name: 'digestive-system-upper',
             apiName: "Digestive_System",
             runningtime: "16:41",
             description: 'digestive-system-description'
         },
         {
-            name: 'discernment-upper',
+            textName: '', name: 'discernment-upper',
             apiName: "Discernment",
             runningtime: "13:37",
             description: 'discernment-description'
         },
         {
-            name: "E-SMOG",
+            textName: '', name: "e-smog-upper",
             apiName: "Electro_Smog",
             runningtime: "14:51",
             description: 'e-smog-description'
         },
         {
-            name: 'energy-balancing-upper',
+            textName: '', name: 'energy-balancing-upper',
             apiName: "Energy_Balancing",
             runningtime: "17:55",
             description: 'energy-balancing-description',
         },
         {
-            name: 'energy-booster-upper',
+            textName: '', name: 'energy-booster-upper',
             apiName: "Energy_Booster",
             runningtime: "13:53",
             description: 'energy-booster-description'
         },
         {
-            name: 'exhaustion-upper',
+            textName: '', name: 'exhaustion-upper',
             apiName: "Exhaustion",
             runningtime: "14:59",
             description: 'exhaustion-description'
         },
         {
-            name: 'eyesight-upper',
+            textName: '', name: 'eyesight-upper',
             apiName: "Eyesight",
             runningtime: "16:11",
             description: 'eyesight-description'
         },
         {
-            name: 'female-upper',
+            textName: '', name: 'female-upper',
             apiName: "Female_Hormone_Balance",
             runningtime: "14:17",
             description: 'female-description'
         },
         {
-            name: 'flu-upper',
+            textName: '', name: 'flu-upper',
             apiName: "Flu",
             runningtime: "13:59",
             description: 'flu-description'
         },
 
         {
-            name: 'glucose-metabolic-disorders-upper',
+            textName: '', name: 'glucose-metabolic-disorders-upper',
             apiName: "Glucose_Metabolic_Disorders",
             runningtime: "16:28",
             description: 'glucose-metabolic-disorders-description',
         },
         {
-            name: 'hair-growth-upper',
+            textName: '', name: 'hair-growth-upper',
             apiName: "Hair_Growth",
             runningtime: "19:07",
             description: 'hair-growth-description'
         },
         {
-            name: 'headache-upper',
+            textName: '', name: 'headache-upper',
             apiName: "Headache",
             runningtime: "18:38",
             description: 'headache-description'
         },
         {
-            name: 'heart-function-upper',
+            textName: '', name: 'heart-function-upper',
             apiName: "Heart_Function",
             runningtime: "13:30",
             description: 'heart-function-description'
         },
 
         {
-            name: 'hemorrhoids-upper',
+            textName: '', name: 'hemorrhoids-upper',
             apiName: "Hemorrhoids",
             runningtime: "21:13",
             description: 'hemorrhoids-description'
         },
         {
-            name: 'hypertension-upper',
+            textName: '', name: 'hypertension-upper',
             apiName: "Hypertension",
             runningtime: "18:53",
             description: 'hypertension-description'
         },
         {
-            name: 'immune-system-upper',
+            textName: '', name: 'immune-system-upper',
             apiName: "Immune_System",
             runningtime: "14:50",
             description: 'immune-system-description'
         },
         {
-            name: 'injury-upper',
+            textName: '', name: 'injury-upper',
             apiName: "Injury",
             runningtime: "18:46",
             description: 'injury-description'
         },
         {
-            name: 'intestinal-flora-upper',
+            textName: '', name: 'intestinal-flora-upper',
             apiName: "Intestinal_Flora",
             runningtime: "18:58",
             description: 'intestinal-flora-description'
         },
         {
-            name: "JET-LAG",
+            textName: '', name: "jet-lag-upper",
             apiName: "Jet-Lag/Climate_Change",
             runningtime: "16:14",
             description: 'jet-lag-description'
         },
         {
-            name: 'joints-upper',
+            textName: '', name: 'joints-upper',
             apiName: "Joints",
             runningtime: "17:07",
             description: 'joints-description'
         },
         {
-            name: 'joy-upper',
+            textName: '', name: 'joy-upper',
             apiName: "Joy",
             runningtime: "21:04",
             description: 'joy-description'
         },
         {
-            name: 'low-mental-drive-upper',
+            textName: '', name: 'low-mental-drive-upper',
             apiName: "Low_Mental_Drive",
             runningtime: "15:49",
             description: 'low-mental-drive-description'
         },
         {
-            name: 'low-physical-drive-upper',
+            textName: '', name: 'low-physical-drive-upper',
             apiName: "Low_Physical_Drive",
             runningtime: "16:49",
             description: 'low-physical-drive-description'
         },
         {
-            name: 'lymphatic-system-upper',
+            textName: '', name: 'lymphatic-system-upper',
             apiName: "Lymphatic_System",
             runningtime: "16:04",
             description: 'lymphatic-system-description'
         },
         {
-            name: 'male-upper',
+            textName: '', name: 'male-upper',
             apiName: "Male_Hormone_Balance",
             runningtime: "12:31",
             description: 'male-description'
         },
         {
-            name: 'meditation-1-upper',
+            textName: '', name: 'meditation-1-upper',
             apiName: "Meditation_1",
             runningtime: "33:15",
             description: 'meditation-1-description'
         },
         {
-            name: 'meditation-2-upper',
+            textName: '', name: 'meditation-2-upper',
             apiName: "Meditation_2",
             runningtime: "29:43",
             description: 'meditation-2-description'
         },
         {
-            name: 'meditation-3-upper',
+            textName: '', name: 'meditation-3-upper',
             apiName: "Meditation_3",
             runningtime: "22:49",
             description: 'meditation-3-description'
         },
         {
-            name: 'mineral-metabolic-activity-upper',
+            textName: '', name: 'mineral-metabolic-activity-upper',
             apiName: "Mineral_Metabolic_Activity",
             runningtime: "17:25",
             description: 'mineral-metabolic-activity-description'
         },
         {
-            name: 'muscle-tissue-upper',
+            textName: '', name: 'muscle-tissue-upper',
             apiName: "Muscle_Tissues",
             runningtime: "15:59",
             description: 'muscle-tissue-description'
         },
         {
-            name: 'neck-shoulder-upper',
+            textName: '', name: 'neck-shoulder-upper',
             apiName: "Neck/Shoulder",
             runningtime: "16:16",
             description: 'neck-shoulder-description'
         },
         {
-            name: 'nervous-system-upper',
+            textName: '', name: 'nervous-system-upper',
             apiName: "Nervous_System",
             runningtime: "19:10",
             description: 'nervous-system-description'
         },
         {
-            name: 'pain-upper',
+            textName: '', name: 'pain-upper',
             apiName: "Pain_Conditions",
             runningtime: "15:18",
             description: 'pain-description'
         },
         {
-            name: 'peace-upper',
+            textName: '', name: 'peace-upper',
             apiName: "Peace",
             runningtime: "22:08",
             description: 'peace-description'
         },
         {
-            name: 'regeneration-upper',
+            textName: '', name: 'regeneration-upper',
             apiName: "Regeneration",
             runningtime: "17:12",
             description: 'regeneration-description'
         },
         {
-            name: 'relaxation-upper',
+            textName: '', name: 'relaxation-upper',
             apiName: "Relaxation",
             runningtime: "19:55",
             description: 'relaxation-description'
         },
         {
-            name: 'respiratory-system-upper',
+            textName: '', name: 'respiratory-system-upper',
             apiName: "Respiratory_System",
             runningtime: "15:52",
             description: 'respiratory-system-description'
         },
         {
-            name: 'sinus-cavities-upper',
+            textName: '', name: 'sinus-cavities-upper',
             apiName: "Sinus_Cavities",
             runningtime: "15:33",
             description: 'sinus-cavities-description'
         },
         {
-            name: 'skin-conditions-upper',
+            textName: '', name: 'skin-conditions-upper',
             apiName: "Skin_Conditions",
             runningtime: "15:50",
             description: 'skin-conditions-description'
         },
         {
-            name: 'sleep-enhancer-upper',
+            textName: '', name: 'sleep-enhancer-upper',
             apiName: "Sleep_Enhancer",
             runningtime: "19:58",
             description: 'sleep-enhancer-description'
         },
         {
-            name: 'stress-relief-upper',
+            textName: '', name: 'stress-relief-upper',
             apiName: "Frustration",
             runningtime: "18:55",
             description: 'stress-relief-description'
         },
         {
-            name: 'thyroid-glands-upper',
+            textName: '', name: 'thyroid-glands-upper',
             apiName: "Thyroid_Glands",
             runningtime: "17:53",
             description: 'thyroid-glands-description'
         },
 
         {
-            name: 'urinary-upper',
+            textName: '', name: 'urinary-upper',
             apiName: "Urinary_System/Cystitis",
             runningtime: "13:39",
             description: 'urinary-description'
         },
 
         {
-            name: 'vertebrae-upper',
+            textName: '', name: 'vertebrae-upper',
             apiName: "Vertebrae",
             runningtime: "12:53",
             description: 'vertebrae-description'
         },
         {
-            name: 'vitality-upper',
+            textName: '', name: 'vitality-upper',
             apiName: "Vitality",
             runningtime: "14:00",
             description: 'vitality-description'
         },
         {
-            name: 'weight-control-upper',
+            textName: '', name: 'weight-control-upper',
             apiName: "Weight_Control",
             runningtime: "14:50",
             description: 'weight-control-description'
         },
         {
-            name: 'petss-program-upper',
+            textName: '', name: 'petss-program-upper',
             apiName: "Pet_1",
             runningtime: "11:50",
             description: 'petss-program-description'
         },
         {
-            name: 'petsx-program-upper',
+            textName: '', name: 'petsx-program-upper',
             apiName: "Pet_2",
             runningtime: "12:50",
             description: 'petsx-program-description'

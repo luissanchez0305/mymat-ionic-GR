@@ -20,21 +20,21 @@
   <div class="list card cardprogram">
     <div class="item">
 
-        <h2 padding>{{ 'contact-us-text' | translate }}</h2>
+        <h2 padding>KONTAKTIEREN SIE UNS</h2>
 
     </div>
 
     <div padding class="item item-body">
       <form [formGroup]="contactForm" (ngSubmit)="attemptSendMail()">
-        <p class="lorems center-forced" [innerHTML]="'get-in-touch' | translate">Text</p>
+        <p class="lorems center-forced">Setzen Sie sich mit uns in Verbindung, indem Sie das folgende Formular ausfüllen. <br/>Oder kontaktieren Sie uns unter <a href="mailto:support@healinghouse.life"> support@healinghouse.life </a></p>
         <label class="item-input contact">
-          <ion-input type="text" placeholder="{{ 'name-text' | translate }}" formControlName="name" value="{{ name_value }}"></ion-input>
+          <ion-input type="text" placeholder="Name:" formControlName="name" value="{{ name_value }}"></ion-input>
         </label><br>
         <label class="item-input contact">
           <ion-input type="email" placeholder="Email"  autocapitalize="none"formControlName="email" value="{{ email_value }}"></ion-input>
         </label><br>
         <label class="item-input contact">
-          <ion-textarea placeholder="{{ 'message-text' | translate }}" formControlName="message" value="{{ message_value }}"></ion-textarea>
+          <ion-textarea placeholder="Nachricht" formControlName="message" value="{{ message_value }}"></ion-textarea>
         </label><br>
         <button type="submit" ion-button [disabled]="!contactForm.valid" [disabled]="contactDisabled" class="button-contact button-calm">{{ button_send }}</button>
         <div padding>

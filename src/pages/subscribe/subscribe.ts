@@ -3,9 +3,9 @@ import { NavController, NavParams, ModalController } from 'ionic-angular';
 import { Validators, FormBuilder, FormGroup } from '@angular/forms';
 import { Device } from '@ionic-native/device';
 import { Storage } from '@ionic/storage';
-import { TranslateService } from '@ngx-translate/core';
 import { APIServiceProvider } from '../../providers/api-service/api-service';
 import { Constants } from '../../services/constants';
+import { GermanTexts } from '../../services/german-texts';
 import { SliderPage } from '../slider/slider';
 import { Network } from '@ionic-native/network';
 import { FavoritesPage } from '../favorites/favorites';
@@ -37,8 +37,7 @@ export class SubscribePage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams, private zone: NgZone,
     private formBuilder: FormBuilder, private storage: Storage, public apiService : APIServiceProvider,
-    private translateService: TranslateService, private device: Device, private modalCtrl: ModalController,
-    private network: Network) {
+    private device: Device, private modalCtrl: ModalController, private network: Network) {
       // obtiene el parametro de que page va a correr al terminar el registro
       this.callBackPage = this.navParams.get('callBackPage');
       this.showSubmitButton = true;
@@ -91,57 +90,44 @@ export class SubscribePage {
       if(this.responseData.status == 'ok') {
         this.storage.set(Constants.deviceInfoKey, {'uuid': this.responseData.uuid, 'email': this.subscribeForm.value.email });
         this.showSubmitButton = false;
-        this.storage.get(Constants.storageKeyLang).then((lang)=>{
-          this.translateService.getTranslation(lang).subscribe((value) => {
-            this.response_text = value['profile-success-message'];
+        this.response_text = GermanTexts['profile-success-message'];
 
-            setTimeout(() => {
-              if(this.callBackPage == 'none'){
-                // despliega la vista de de instrucciones
-                this.navCtrl.push(SliderPage);
-              }
-              else if(this.callBackPage == 'favorites'){
-                this.navCtrl.pop();
-                let profileModal = this.modalCtrl.create(FavoritesPage, { 'showSave': true });
-                profileModal.present();
-              }
-            }, 5000);
-
-          });
-        });
+        setTimeout(() => {
+          if(this.callBackPage == 'none'){
+            // despliega la vista de de instrucciones
+            this.navCtrl.push(SliderPage);
+          }
+          else if(this.callBackPage == 'favorites'){
+            this.navCtrl.pop();
+            let profileModal = this.modalCtrl.create(FavoritesPage, { 'showSave': true });
+            profileModal.present();
+          }
+        }, 5000);
       }
       else {
-        this.storage.get(Constants.storageKeyLang).then((lang)=>{
-          this.translateService.getTranslation(lang).subscribe((value) => {
-            var error = value['profile-error-message'] + ': ';
-            if(this.responseData.emailError != 'ok'){
-              error += this.responseData.emailError;
-              this.errorEmailClass  = 'error';
-            }
-            if(this.responseData.nameError != 'ok'){
-              error += this.responseData.nameError;
-              this.errorNameClass  = 'error';
-            }
-            if(this.responseData.genderError != 'ok'){
-              error += this.responseData.genderError;
-              this.errorGenderClass  = 'error';
-            }
-            if(this.responseData.dateOfBirthError != 'ok'){
-              error += this.responseData.dateOfBirthError;
-              this.errorDateClass  = 'error';
-            }
+        var error = GermanTexts['profile-error-message'] + ': ';
+        if(this.responseData.emailError != 'ok'){
+          error += this.responseData.emailError;
+          this.errorEmailClass  = 'error';
+        }
+        if(this.responseData.nameError != 'ok'){
+          error += this.responseData.nameError;
+          this.errorNameClass  = 'error';
+        }
+        if(this.responseData.genderError != 'ok'){
+          error += this.responseData.genderError;
+          this.errorGenderClass  = 'error';
+        }
+        if(this.responseData.dateOfBirthError != 'ok'){
+          error += this.responseData.dateOfBirthError;
+          this.errorDateClass  = 'error';
+        }
 
-            this.response_text = error;
-          });
-        });
+        this.response_text = error;
       }
       // TODO: poner success y desplegar pagina principal
     }, (result) => {
-      this.storage.get(Constants.storageKeyLang).then((lang)=>{
-        this.translateService.getTranslation(lang).subscribe((value) => {
-          this.response_text = value['profile-error-message'];
-        });
-      });
+      this.response_text = GermanTexts['profile-error-message'];
     });
   }
 }

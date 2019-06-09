@@ -3,6 +3,7 @@ import { NavController, NavParams, Events, Content } from 'ionic-angular';
 import { Data } from '../../services/offline_data';
 import { RoutinesProvider } from '../../providers/routines/routines';
 import { Constants } from '../../services/constants';
+import { GermanTexts } from '../../services/german-texts';
 import { ProgramPage } from '../program/program';
 import { Storage } from '@ionic/storage';
 
@@ -56,6 +57,9 @@ export class ProgramsPage {
       this.storage.get(Constants.storageKeyCurrentProgram).then((program)=>{
         this.getPrograms(program != null ? program : 'basic');
       })
+      for(let i = 0; i < Data.Programs.length; i++){
+        Data.Programs[i].textName = GermanTexts[Data.Programs[i].name];
+      }
       this.programs = Data.Programs;
 
       this.routines.getKey(Constants.storageKeyBubble1).then(val => {
@@ -154,6 +158,7 @@ export class ProgramsPage {
     for(var i = 0; i < Data.Groups.length; i++){
       var group = Data.Groups[i];
       if(group.category == category){
+        group.textName = GermanTexts[group.name];
         groups[groupIndex] = group;
         for(var j = 0; j < group.programs.length; j++){
           var program = group.programs[j];

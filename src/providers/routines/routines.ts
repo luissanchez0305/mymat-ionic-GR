@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Storage } from '@ionic/storage';
 import { Data } from '../../services/offline_data';
+import { GermanTexts } from '../../services/german-texts';
 
 /*
   Generated class for the RoutinesProvider provider.
@@ -71,8 +72,10 @@ export class RoutinesProvider {
   public getProgram(name){
       for(var i = 0;  i < Data.Programs.length; i++){
         var program = Data.Programs[i];
-        if(program.apiName == name || program.name == name.name || program.name == name)
+        if(program.apiName == name || program.name == name.name || program.name == name){
+          program.textName = GermanTexts[program.name];
           return program;
+        }
       }
   }
 

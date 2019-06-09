@@ -4,7 +4,7 @@ import { Storage } from '@ionic/storage';
 import { SubscribePage } from '../subscribe/subscribe';
 import { RoutinesProvider } from '../../providers/routines/routines';
 import { Constants } from '../../services/constants';
-import { TranslateService } from '@ngx-translate/core';
+import { GermanTexts } from '../../services/german-texts';
 import { Network } from '@ionic-native/network';
 import { Device } from '@ionic-native/device';
 import { APIServiceProvider } from '../../providers/api-service/api-service';
@@ -33,10 +33,20 @@ export class HomePage {
   public showAddFavoriteButton : boolean = false;
   public showLatestSection: boolean;
   public latestRoutines : any;
+  public tab_bubble : string;
+  public run_routine : string;
+  public add_favorite : string;
+  public clean_routine : string;
+  public latest_routines : string;
 
   constructor(public navCtrl: NavController, private storage: Storage, public routines: RoutinesProvider,
-    private translateService: TranslateService, private network: Network, private zone: NgZone,
-    public events: Events, private device: Device, public apiService : APIServiceProvider, public modalCtrl: ModalController) {
+    private network: Network, private zone: NgZone, public events: Events, private device: Device,
+    public apiService : APIServiceProvider, public modalCtrl: ModalController) {
+    this.tab_bubble = GermanTexts['tap-bubble'];
+    this.run_routine = GermanTexts['run-routine'];
+    this.add_favorite = GermanTexts['add-favorite'];
+    this.clean_routine = GermanTexts['clean-routine'];
+
     //this.checkAllBubbles();
     this.events.subscribe('sharesBubbles', (bubbles) => {
       for(var i = 1; i <= bubbles.length; i++){
@@ -50,12 +60,6 @@ export class HomePage {
       console.log(program1);
       let bubbles = this.routines.addPrograms('', program1, program2, program3, program4);
       this.events.publish("sharesBubbles", bubbles);
-    });
-
-    this.events.subscribe('switchLangEvent',(lang) => {
-        //call methods to refresh content
-        this.storage.set(Constants.storageKeyLang, lang)
-        this.checkAllBubbles();
     });
     this.AllBubblesChecked(this.routines.getPrograms());
     this.isDeviceOnline = true;
@@ -192,11 +196,7 @@ export class HomePage {
       case 1:
         if(typeof name !== 'undefined' && name.length > 0){
           this.bubblesCurrentState1 = true;
-          this.storage.get(Constants.storageKeyLang).then((lang)=>{
-            this.translateService.getTranslation(lang).subscribe((value) =>{
-              this.bubblesNames1 = typeof value[name] === 'undefined' ? name : value[name];
-            });
-          });
+          this.bubblesNames1 = typeof GermanTexts[name] === 'undefined' ? name : GermanTexts[name];
         }
         else{
           this.bubblesCurrentState1 = false;
@@ -206,11 +206,7 @@ export class HomePage {
       case 2:
         if(typeof name !== 'undefined' && name.length > 0){
           this.bubblesCurrentState2 = true;
-          this.storage.get(Constants.storageKeyLang).then((lang)=>{
-            this.translateService.getTranslation(lang).subscribe((value) =>{
-              this.bubblesNames2 = typeof value[name] === 'undefined' ? name : value[name];
-            });
-          });
+          this.bubblesNames2 = typeof GermanTexts[name] === 'undefined' ? name : GermanTexts[name];
         }
         else{
           this.bubblesCurrentState2 = false;
@@ -220,11 +216,7 @@ export class HomePage {
       case 3:
         if(typeof name !== 'undefined' && name.length > 0){
           this.bubblesCurrentState3 = true;
-          this.storage.get(Constants.storageKeyLang).then((lang)=>{
-            this.translateService.getTranslation(lang).subscribe((value) =>{
-              this.bubblesNames3 = typeof value[name] === 'undefined' ? name : value[name];
-            });
-          });
+          this.bubblesNames3 = typeof GermanTexts[name] === 'undefined' ? name : GermanTexts[name];
         }
         else{
           this.bubblesCurrentState3 = false;
@@ -234,11 +226,7 @@ export class HomePage {
       case 4:
         if(typeof name !== 'undefined' && name.length > 0){
           this.bubblesCurrentState4 = true;
-          this.storage.get(Constants.storageKeyLang).then((lang)=>{
-            this.translateService.getTranslation(lang).subscribe((value) =>{
-              this.bubblesNames4 = typeof value[name] === 'undefined' ? name : value[name];
-            });
-          });
+          this.bubblesNames4 = typeof GermanTexts[name] === 'undefined' ? name : GermanTexts[name];
         }
         else{
           this.bubblesCurrentState4 = false;

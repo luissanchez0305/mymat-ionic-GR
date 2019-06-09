@@ -13,7 +13,7 @@
       <div class="logo"></div>
     </ion-title>
   </ion-navbar>
-  <ion-item class="no-conection" *ngIf="!isDeviceOnline">{{ 'offline-device-text' | translate }}</ion-item>
+  <ion-item class="no-conection" *ngIf="!isDeviceOnline">Your device is offline</ion-item>
 </ion-header>
 
 
@@ -22,7 +22,7 @@
   <div class="list card cardprogram">
     <ion-item>
 
-        <h2 padding>{{ 'profile-text' | translate }}</h2>
+        <h2 padding>Registrierung</h2>
 
     </ion-item>
 
@@ -30,27 +30,27 @@
       <form [formGroup]="subscribeForm" (ngSubmit)="attemptSubscribe()">
         <ion-list>
           <label>
-            <p class="lorems center-forced" [innerHTML]="'one-time-profile-text' | translate">Text</p>
+            <p class="lorems center-forced">This information is used by our team to serve you better. You will only need to introduce it one single time</p>
           </label>
           <ion-label class="item-input contact" [ngClass]="errorNameClass">
-            <ion-input type="text" placeholder="{{ 'name-text' | translate }}" formControlName="name" value="{{ name_value }}"></ion-input>
+            <ion-input type="text" placeholder="Name:" formControlName="name" value="{{ name_value }}"></ion-input>
           </ion-label>
           <ion-label class="item-input contact" [ngClass]="errorEmailClass">
             <ion-input type="email" placeholder="Email"  autocapitalize="none" formControlName="email" value="{{ email_value }}"></ion-input>
           </ion-label>
           <ion-item class="item-input contact" [ngClass]="errorGenderClass">
-            <ion-label class="item-input contact">{{ 'gender-text' | translate }}</ion-label>
+            <ion-label class="item-input contact">Gender</ion-label>
               <ion-select formControlName="gender" >
-                <ion-option value="f">{{ 'female-text' | translate }}</ion-option>
-                <ion-option value="m">{{ 'male-text' | translate }}</ion-option>
+                <ion-option value="f">Female</ion-option>
+                <ion-option value="m">Male</ion-option>
               </ion-select>
           </ion-item>
           <ion-item class="item-input contact select" [ngClass]="errorDateClass">
-            <ion-label class="item-input contact" [ngClass]="errorGenderClass">{{ 'birthdate-text' | translate }}</ion-label >
+            <ion-label class="item-input contact" [ngClass]="errorGenderClass">Birthdate</ion-label >
             <ion-datetime [max]="maxDateOfPicker" displayFormat="MMM DD, YYYY" pickerFormat="YYYY-MM-DD" formControlName="birthDate"></ion-datetime>
           </ion-item>
           <ion-item>
-            <button type="submit" ion-button *ngIf="showSubmitButton" [disabled]="!subscribeForm.valid" class="button-contact button-calm">{{ 'button-send' | translate }}</button>
+            <button type="submit" ion-button *ngIf="showSubmitButton" [disabled]="!subscribeForm.valid" class="button-contact button-calm">Senden</button>
           </ion-item>
         </ion-list>
         <div padding>
