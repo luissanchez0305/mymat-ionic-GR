@@ -236,7 +236,7 @@ export class HomePage {
     }
   }
 
-  private checkAllBubbles(){
+  /*private checkAllBubbles(){
     this.storage.get(Constants.storageKeyBubble1).then((val)=>{
       if(val !== null){
         var name = val.split('|')[1];
@@ -289,5 +289,5 @@ export class HomePage {
         console.log(err);
       });
     });
-  }
+  }*/
 }
