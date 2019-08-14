@@ -129,40 +129,40 @@
   },
   "installed_plugins": {
     "cordova-plugin-file": {
-      "PACKAGE_NAME": "com.esferasoluciones.mymat_light_deutsch"
+      "PACKAGE_NAME": "com.esferasoluciones.mymatgr"
     },
     "cordova-plugin-advanced-http": {
-      "PACKAGE_NAME": "com.esferasoluciones.mymat_light_deutsch"
+      "PACKAGE_NAME": "com.esferasoluciones.mymatgr"
     },
     "cordova-plugin-badge": {
-      "PACKAGE_NAME": "com.esferasoluciones.mymat_light_deutsch"
+      "PACKAGE_NAME": "com.esferasoluciones.mymatgr"
     },
     "cordova-plugin-datepicker": {
-      "PACKAGE_NAME": "com.esferasoluciones.mymat_light_deutsch"
+      "PACKAGE_NAME": "com.esferasoluciones.mymatgr"
     },
     "cordova-plugin-device": {
-      "PACKAGE_NAME": "com.esferasoluciones.mymat_light_deutsch"
+      "PACKAGE_NAME": "com.esferasoluciones.mymatgr"
     },
     "cordova-plugin-email-composer": {
-      "PACKAGE_NAME": "com.esferasoluciones.mymat_light_deutsch"
+      "PACKAGE_NAME": "com.esferasoluciones.mymatgr"
     },
     "cordova-plugin-local-notification": {
-      "PACKAGE_NAME": "com.esferasoluciones.mymat_light_deutsch"
+      "PACKAGE_NAME": "com.esferasoluciones.mymatgr"
     },
     "cordova-plugin-network-information": {
-      "PACKAGE_NAME": "com.esferasoluciones.mymat_light_deutsch"
+      "PACKAGE_NAME": "com.esferasoluciones.mymatgr"
     },
     "cordova-plugin-networkinterface": {
-      "PACKAGE_NAME": "com.esferasoluciones.mymat_light_deutsch"
+      "PACKAGE_NAME": "com.esferasoluciones.mymatgr"
     },
     "cordova-plugin-splashscreen": {
-      "PACKAGE_NAME": "com.esferasoluciones.mymat_light_deutsch"
+      "PACKAGE_NAME": "com.esferasoluciones.mymatgr"
     },
     "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "com.esferasoluciones.mymat_light_deutsch"
+      "PACKAGE_NAME": "com.esferasoluciones.mymatgr"
     },
     "ionic-plugin-keyboard": {
-      "PACKAGE_NAME": "com.esferasoluciones.mymat_light_deutsch"
+      "PACKAGE_NAME": "com.esferasoluciones.mymatgr"
     }
   },
   "dependent_plugins": {},
