@@ -13,7 +13,7 @@
     <key>CFBundleIcons~ipad</key>
     <dict/>
     <key>CFBundleIdentifier</key>
-    <string>com.esferasoluciones.mymatgr</string>
+    <string>com.esferasoluciones.mymat_light_deutsch</string>
     <key>CFBundleInfoDictionaryVersion</key>
     <string>6.0</string>
     <key>CFBundleName</key>
@@ -21,11 +21,11 @@
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>
-    <string>8.6.5</string>
+    <string>8.6.6</string>
     <key>CFBundleSignature</key>
     <string>????</string>
     <key>CFBundleVersion</key>
-    <string>8.6.5</string>
+    <string>8.6.6</string>
     <key>LSRequiresIPhoneOS</key>
     <true/>
     <key>NSMainNibFile</key>
@@ -53,11 +53,11 @@
     <array>
       <string>UIInterfaceOrientationPortrait</string>
     </array>
+    <key>UILaunchStoryboardName</key>
+    <string>CDVLaunchScreen</string>
     <key>LSApplicationQueriesSchemes</key>
     <array>
       <string>mailto</string>
     </array>
-    <key>UILaunchStoryboardName</key>
-    <string>CDVLaunchScreen</string>
   </dict>
 </plist>
