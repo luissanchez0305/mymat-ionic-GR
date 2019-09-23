@@ -64,8 +64,8 @@ export class WifiPage {
     this.isRunRoutineEnabled = true;
     if(this.platform.is('cordova')){
       this.networkInterface.getWiFiIPAddress().then((response)=>{
-        if(response === Constants.localIPAddress){
-          this.showIPButton();
+        if(this.verifyInternalIpAddress(response)){
+          this.verifyStatusValues();
         }
         else
           this.failIPVerification();
@@ -74,13 +74,22 @@ export class WifiPage {
       });
     }
     else{
-      this.showIPButton();
+      this.verifyStatusValues();
     }
     this.mymatWifi = true;
     this.intervalCount = 0;
   }
 
-  showIPButton(){
+  verifyInternalIpAddress(ip){
+    for(let i = 100; i < 256; i++){
+      if(Constants.localIPAddress + i == ip){
+        return true;
+      }
+    }
+    return false;
+  }
+
+  verifyStatusValues(){
     //this.mymatStatus = true;
     //this.showStatusTable = true;
 
@@ -162,8 +171,9 @@ export class WifiPage {
   failIPVerification(){
       this.testIPInterval = setInterval(() => {
         this.networkInterface.getWiFiIPAddress().then((response)=>{
-            if(response === Constants.localIPAddress)
-              this.showIPButton();
+            if(this.verifyInternalIpAddress(response)){
+              this.verifyStatusValues();
+            }
           });
       }, 3000);
   }
