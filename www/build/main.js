@@ -4570,15 +4570,18 @@ var WifiPage = (function () {
         }
         return false;
     };
-    WifiPage.prototype.verifyStatusValues = function () {
+    WifiPage.prototype.verifyStatusValues = function (restart) {
         //this.mymatStatus = true;
         //this.showStatusTable = true;
         var _this = this;
-        this.batteryImg = 'assets/img/b100.pn';
-        this.coilText1 = 'N/A';
-        this.coilText2 = 'N/A';
-        this.coilText3 = 'N/A';
-        this.coilText4 = 'N/A';
+        if (restart === void 0) { restart = true; }
+        if (restart) {
+            this.batteryImg = 'assets/img/b100.pn';
+            this.coilText1 = 'N/A';
+            this.coilText2 = 'N/A';
+            this.coilText3 = 'N/A';
+            this.coilText4 = 'N/A';
+        }
         //this.mymatWifi = false;
         //this.showLoading = false;
         clearInterval(this.testIPInterval);
@@ -4590,16 +4593,17 @@ var WifiPage = (function () {
                 _this.showStatus();
             }
             else {
-                _this.failStatusVerification();
+                _this.failIPVerification();
             }
         }, function (response) {
-            _this.failStatusVerification();
+            _this.failIPVerification();
         });
     };
     WifiPage.prototype.showNoStatus = function () {
         this.mymatNoStatus = true;
     };
     WifiPage.prototype.showStatus = function () {
+        var _this = this;
         this.mymatWifi = false;
         this.mymatStatus = true;
         this.showStatusTable = true;
@@ -4607,6 +4611,28 @@ var WifiPage = (function () {
         this.isRunRoutineEnabled = true;
         clearInterval(this.testStatusInterval);
         clearInterval(this.testIPInterval);
+        this.testIPInterval = setInterval(function () {
+            _this.networkInterface.getWiFiIPAddress().then(function (response) {
+                if (_this.verifyInternalIpAddress(response)) {
+                    _this.verifyStatusValues(false);
+                }
+                else {
+                    _this.mymatWifi = true;
+                    _this.mymatStatus = false;
+                    _this.showStatusTable = false;
+                    _this.showLoading = true;
+                    _this.isRunRoutineEnabled = false;
+                    _this.failIPVerification();
+                }
+            }, function (response) {
+                _this.mymatWifi = true;
+                _this.mymatStatus = false;
+                _this.showStatusTable = false;
+                _this.showLoading = true;
+                _this.isRunRoutineEnabled = false;
+                _this.failIPVerification();
+            });
+        }, 3000);
     };
     WifiPage.prototype.verifyValues = function (response) {
         if (response.indexOf("<p><h4>Power: ") > -1) {
@@ -4652,56 +4678,57 @@ var WifiPage = (function () {
             });
         }, 3000);
     };
-    WifiPage.prototype.failStatusVerification = function () {
-        var _this = this;
-        this.testStatusInterval = setInterval(function () {
-            // timeout of mymat detection 180 segundos
-            var failMyMatTest = _this.apiService.test();
-            failMyMatTest.then(function (response) {
-                if (_this.verifyValues(response)) {
-                    _this.showStatus();
-                }
-            }, function (response) {
-                if (_this.intervalCount >= 5) {
-                    _this.showNoStatus();
-                }
-            });
-            _this.intervalCount += 1;
-        }, 3000);
-        /*var programs = '';
-    
-        for(var i = 1; i <= 4; i++){
-          switch(i){
-            case 1:
-              this.storage.get(Constants.storageKeyBubble1).then((val) => {
-                programs += "?P1=" + val.split("|")[3] + '&';
-              });
-              break;
-            case 2:
-              this.storage.get(Constants.storageKeyBubble2).then((val) => {
-         858]
-            programs += "P2=" + val.split("|")[3] + '&';
-              });
-              break;
-            case 3:
-              this.storage.get(Constants.storageKeyBubble3).then((val) => {
-                programs += "P3=" + val.split("|")[3] + '&';
-              });
-              break;
-            case 4:
-              this.storage.get(Constants.storageKeyBubble4).then((val) => {
-                programs += "P4=" + val.split("|")[3];
-    
-                this.showIframeStatus = true;
-                this.mymatWifi = false;
-                this.mymatStatus = true;
-                this.showStatusTable = false;
-                this.iframeUrl = this.sanitize.bypassSecurityTrustResourceUrl(Constants.myMatApiIndexUrl + programs);
-              });
-              break;
+    /*failStatusVerification(){
+      this.testStatusInterval = setInterval(() => {
+        // timeout of mymat detection 180 segundos
+        var failMyMatTest = this.apiService.test();
+        failMyMatTest.then((response) => {
+          if(this.verifyValues(response)){
+            this.showStatus();
           }
-        }*/
-    };
+        }, (response) => {
+          if(this.intervalCount >= 5){
+            this.showNoStatus();
+          }
+        });
+  
+        this.intervalCount += 1;
+      }, 3000);
+  
+      /*var programs = '';
+  
+      for(var i = 1; i <= 4; i++){
+        switch(i){
+          case 1:
+            this.storage.get(Constants.storageKeyBubble1).then((val) => {
+              programs += "?P1=" + val.split("|")[3] + '&';
+            });
+            break;
+          case 2:
+            this.storage.get(Constants.storageKeyBubble2).then((val) => {
+       858]
+          programs += "P2=" + val.split("|")[3] + '&';
+            });
+            break;
+          case 3:
+            this.storage.get(Constants.storageKeyBubble3).then((val) => {
+              programs += "P3=" + val.split("|")[3] + '&';
+            });
+            break;
+          case 4:
+            this.storage.get(Constants.storageKeyBubble4).then((val) => {
+              programs += "P4=" + val.split("|")[3];
+  
+              this.showIframeStatus = true;
+              this.mymatWifi = false;
+              this.mymatStatus = true;
+              this.showStatusTable = false;
+              this.iframeUrl = this.sanitize.bypassSecurityTrustResourceUrl(Constants.myMatApiIndexUrl + programs);
+            });
+            break;
+        }
+      }* /
+    }*/
     WifiPage.prototype.startRoutine = function () {
         var _this = this;
         /* ANTES DE COCRRER RUTINA VERIFICAR SI SE ESTA CONECTADO AL WIFI DEL MYMAT */
