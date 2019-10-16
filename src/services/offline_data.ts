@@ -2848,151 +2848,6 @@ export var Data = { Groups : [
     ],
     Programs : [
         {
-            textName: '', name: 'earth-element-upper',
-            apiName: "Earth_Element",
-            runningtime: "16:55",
-            description: 'earth-element-description'
-        },
-        {
-            textName: '', name: 'fire-element-upper',
-            apiName: "Fire_Element",
-            runningtime: "15:05",
-            description: 'fire-element-description'
-        },
-        {
-            textName: '', name: 'metal-element-upper',
-            apiName: "Metal_Element",
-            runningtime: "12:39",
-            description: 'metal-element-description'
-        },
-        {
-            textName: '', name: 'water-element-upper',
-            apiName: "Water_Element",
-            runningtime: "17:20",
-            description: 'water-element-description'
-        },
-        {
-            textName: '', name: 'wood-element-upper',
-            apiName: "Wood_Element",
-            runningtime: "17:09",
-            description: 'wood-element-description'
-        },
-        {
-            textName: '', name: 'gallbladder-meridian-upper',
-            apiName: "Gallbladder_Meridian",
-            runningtime: "20:39",
-            description: 'gallbladder-meridian-description'
-        },
-        {
-            textName: '', name: 'heart-meridian-upper',
-            apiName: "Heart_Meridian",
-            runningtime: "14:45",
-            description: 'heart-meridian-description'
-        },
-        {
-            textName: '', name: 'kidney-meridian-upper',
-            apiName: "Kidney_Meridian",
-            runningtime: "16:27",
-            description: 'kidney-meridian-description'
-        },
-        {
-            textName: '', name: 'large-intestine-meridian-upper',
-            apiName: "Large_Intestine_Meridian",
-            runningtime: "13:53",
-            description: 'large-intestine-meridian-description'
-        },
-        {
-            textName: '', name: 'liver-meridian-upper',
-            apiName: "Liver_Meridian",
-            runningtime: "16:11",
-            description: 'liver-meridian-description'
-        },
-
-        {
-            textName: '', name: 'lung-meridian-upper',
-            apiName: "Lung_Meridian",
-            runningtime: "16:38",
-            description: 'lung-meridian-description'
-        },
-        {
-            textName: '', name: 'pericardium-meridian-upper',
-            apiName: "Pericardium_Meridian",
-            runningtime: "21:55",
-            description: 'pericardium-meridian-description'
-        },
-        {
-            textName: '', name: 'small-intestine-meridian-upper',
-            apiName: "Small_Intestine_Meridian",
-            runningtime: "13:25",
-            description: 'small-intestine-meridian-description'
-        },
-        {
-            textName: '', name: 'spleen-pancreas-meridian-upper',
-            apiName: "Spleen_Meridian",
-            runningtime: "15:37",
-            description: 'spleen-pancreas-meridian-description'
-        },
-        {
-            textName: '', name: 'stomach-meridian-upper',
-            apiName: "Stomach_Meridian",
-            runningtime: "17:15",
-            description: 'stomach-meridian-description'
-        },
-        {
-            textName: '', name: 'triple-warmer-meridian-upper',
-            apiName: "Triple_Warmer_Meridian",
-            runningtime: "13:20",
-            description: 'triple-warmer-meridian-description'
-        },
-        {
-            textName: '', name: 'urinary-bladder-meridian-upper',
-            apiName: "Urinary_Bladder_Meridian",
-            runningtime: "14:19",
-            description: 'urinary-bladder-meridian-description'
-        },
-        {
-            textName: '', name: "first-chakra-upper",
-            apiName: "Root_Chakra",
-            runningtime: "15:49",
-            description: '1-chakra-description'
-        },
-        {
-            textName: '', name: "second-chakra-upper",
-            apiName: "Sacral_Chakra",
-            runningtime: "13:57",
-            description: '2-chakra-description'
-        },
-        {
-            textName: '', name: "third-chakra-upper",
-            apiName: "Solar_Plexus_Chakra",
-            runningtime: "16:51",
-            description: '3-chakra-description'
-        },
-        {
-            textName: '', name: "fourth-chakra-upper",
-            apiName: "Heart_Chakra",
-            runningtime: "18:16",
-            description: '4-chakra-description'
-        },
-        {
-            textName: '', name: "fifth-chakra-upper",
-            apiName: "Throat_Chakra",
-            runningtime: "17:59",
-            description: '5-chakra-description'
-        },
-        {
-            textName: '', name: "sixth-chakra-upper",
-            apiName: "Brow_Chakra",
-            runningtime: "16:13",
-            description: '6-chakra-description'
-        },
-        {
-            textName: '', name: "seventh-chakra-upper",
-            apiName: "Crown_Chakra",
-            runningtime: "13:45",
-            description: '7-chakra-description'
-        },
-        {
             textName: '', name: 'addiction-upper',
             apiName: "Addiction",
             runningtime: "15:05",
@@ -3010,7 +2865,6 @@ export var Data = { Groups : [
             runningtime: "11:01",
             description: 'anti-aging-description',
         },
-
         {
             textName: '', name: 'auditory-upper',
             apiName: "Auditory_System",
@@ -3042,7 +2896,7 @@ export var Data = { Groups : [
             description: 'circulatory-system-description',
         },
         {
-            textName: '', name:  'concentration-upper',
+            textName: '', name: 'concentration-upper',
             apiName: "Concentration",
             runningtime: "21:19",
             description: 'concentration-description'
@@ -3084,12 +2938,6 @@ export var Data = { Groups : [
             description: 'discernment-description'
         },
         {
-            textName: '', name: "e-smog-upper",
-            apiName: "Electro_Smog",
-            runningtime: "14:51",
-            description: 'e-smog-description'
-        },
-        {
             textName: '', name: 'energy-balancing-upper',
             apiName: "Energy_Balancing",
             runningtime: "17:55",
@@ -3100,6 +2948,12 @@ export var Data = { Groups : [
             apiName: "Energy_Booster",
             runningtime: "13:53",
             description: 'energy-booster-description'
+        },
+        {
+            textName: '', name: "E-SMOG",
+            apiName: "Electro_Smog",
+            runningtime: "14:51",
+            description: 'e-smog-description'
         },
         {
             textName: '', name: 'exhaustion-upper',
@@ -3182,12 +3036,6 @@ export var Data = { Groups : [
             description: 'intestinal-flora-description'
         },
         {
-            textName: '', name: "jet-lag-upper",
-            apiName: "Jet-Lag/Climate_Change",
-            runningtime: "16:14",
-            description: 'jet-lag-description'
-        },
-        {
             textName: '', name: 'joints-upper',
             apiName: "Joints",
             runningtime: "17:07",
@@ -3198,6 +3046,12 @@ export var Data = { Groups : [
             apiName: "Joy",
             runningtime: "21:04",
             description: 'joy-description'
+        },
+        {
+            textName: '', name: "JET-LAG",
+            apiName: "Jet-Lag/Climate_Change",
+            runningtime: "16:14",
+            description: 'jet-lag-description'
         },
         {
             textName: '', name: 'low-mental-drive-upper',
@@ -3266,16 +3120,16 @@ export var Data = { Groups : [
             description: 'nervous-system-description'
         },
         {
-            textName: '', name: 'pain-upper',
-            apiName: "Pain_Conditions",
-            runningtime: "15:18",
-            description: 'pain-description'
-        },
-        {
             textName: '', name: 'peace-upper',
             apiName: "Peace",
             runningtime: "22:08",
             description: 'peace-description'
+        },
+        {
+            textName: '', name: 'pain-upper',
+            apiName: "Pain_Conditions",
+            runningtime: "15:18",
+            description: 'pain-description'
         },
         {
             textName: '', name: 'regeneration-upper',
@@ -3362,6 +3216,150 @@ export var Data = { Groups : [
             apiName: "Pet_2",
             runningtime: "12:50",
             description: 'petsx-program-description'
+        },
+        {
+            textName: '', name: 'stomach-meridian-upper',
+            apiName: "Stomach_Meridian",
+            runningtime: "17:15",
+            description: 'stomach-meridian-description'
+        },
+        {
+            textName: '', name: 'spleen-pancreas-meridian-upper',
+            apiName: "Spleen_Meridian",
+            runningtime: "15:37",
+            description: 'spleen-pancreas-meridian-description'
+        },
+        {
+            textName: '', name: 'heart-meridian-upper',
+            apiName: "Heart_Meridian",
+            runningtime: "14:45",
+            description: 'heart-meridian-description'
+        },
+        {
+            textName: '', name: 'small-intestine-meridian-upper',
+            apiName: "Small_Intestine_Meridian",
+            runningtime: "13:25",
+            description: 'small-intestine-meridian-description'
+        },
+        {
+            textName: '', name: 'pericardium-meridian-upper',
+            apiName: "Pericardium_Meridian",
+            runningtime: "21:55",
+            description: 'pericardium-meridian-description'
+        },
+        {
+            textName: '', name: 'triple-warmer-meridian-upper',
+            apiName: "Triple_Warmer_Meridian",
+            runningtime: "13:20",
+            description: 'triple-warmer-meridian-description'
+        },
+        {
+            textName: '', name: 'lung-meridian-upper',
+            apiName: "Lung_Meridian",
+            runningtime: "16:38",
+            description: 'lung-meridian-description'
+        },
+        {
+            textName: '', name: 'large-intestine-meridian-upper',
+            apiName: "Large_Intestine_Meridian",
+            runningtime: "13:53",
+            description: 'large-intestine-meridian-description'
+        },
+        {
+            textName: '', name: 'kidney-meridian-upper',
+            apiName: "Kidney_Meridian",
+            runningtime: "16:27",
+            description: 'kidney-meridian-description'
+        },
+        {
+            textName: '', name: 'urinary-bladder-meridian-upper',
+            apiName: "Urinary_Bladder_Meridian",
+            runningtime: "14:19",
+            description: 'urinary-bladder-meridian-description'
+        },
+        {
+            textName: '', name: 'liver-meridian-upper',
+            apiName: "Liver_Meridian",
+            runningtime: "16:11",
+            description: 'liver-meridian-description'
+        },
+        {
+            textName: '', name: 'gallbladder-meridian-upper',
+            apiName: "Gallbladder_Meridian",
+            runningtime: "20:39",
+            description: 'gallbladder-meridian-description'
+        },
+        {
+            textName: '', name: "first-chakra-upper",
+            apiName: "Root_Chakra",
+            runningtime: "15:49",
+            description: '1-chakra-description'
+        },
+        {
+            textName: '', name: "second-chakra-upper",
+            apiName: "Sacral_Chakra",
+            runningtime: "13:57",
+            description: '2-chakra-description'
+        },
+        {
+            textName: '', name: "third-chakra-upper",
+            apiName: "Solar_Plexus_Chakra",
+            runningtime: "16:51",
+            description: '3-chakra-description'
+        },
+        {
+            textName: '', name: "fourth-chakra-upper",
+            apiName: "Heart_Chakra",
+            runningtime: "18:16",
+            description: '4-chakra-description'
+        },
+        {
+            textName: '', name: "fifth-chakra-upper",
+            apiName: "Throat_Chakra",
+            runningtime: "17:59",
+            description: '5-chakra-description'
+        },
+        {
+            textName: '', name: "sixth-chakra-upper",
+            apiName: "Brow_Chakra",
+            runningtime: "16:13",
+            description: '6-chakra-description'
+        },
+        {
+            textName: '', name: "seventh-chakra-upper",
+            apiName: "Crown_Chakra",
+            runningtime: "13:45",
+            description: '7-chakra-description'
+        },
+        {
+            textName: '', name: 'earth-element-upper',
+            apiName: "Earth_Element",
+            runningtime: "16:55",
+            description: 'earth-element-description'
+        },
+        {
+            textName: '', name: 'water-element-upper',
+            apiName: "Water_Element",
+            runningtime: "17:20",
+            description: 'water-element-description'
+        },
+        {
+            textName: '', name: 'fire-element-upper',
+            apiName: "Fire_Element",
+            runningtime: "15:05",
+            description: 'fire-element-description'
+        },
+        {
+            textName: '', name: 'metal-element-upper',
+            apiName: "Metal_Element",
+            runningtime: "12:39",
+            description: 'metal-element-description'
+        },
+        {
+            textName: '', name: 'wood-element-upper',
+            apiName: "Wood_Element",
+            runningtime: "17:09",
+            description: 'wood-element-description'
         }
     ]
 };
