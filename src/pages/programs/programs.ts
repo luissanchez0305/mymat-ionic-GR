@@ -58,7 +58,8 @@ export class ProgramsPage {
         this.getPrograms(program != null ? program : 'basic');
       })
       for(let i = 0; i < Data.Programs.length; i++){
-        Data.Programs[i].textName = GermanTexts[Data.Programs[i].name];
+        let text = GermanTexts[Data.Programs[i].name];
+        Data.Programs[i].textName = text ? text : Data.Programs[i].name;
       }
       this.programs = Data.Programs;
 
@@ -158,7 +159,8 @@ export class ProgramsPage {
     for(var i = 0; i < Data.Groups.length; i++){
       var group = Data.Groups[i];
       if(group.category == category){
-        group.textName = GermanTexts[group.name];
+        let text = GermanTexts[group.name];
+        group.textName = text ? text : group.name;
         groups[groupIndex] = group;
         for(var j = 0; j < group.programs.length; j++){
           var program = group.programs[j];

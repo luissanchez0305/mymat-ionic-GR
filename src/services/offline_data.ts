@@ -3206,16 +3206,34 @@ export var Data = { Groups : [
             description: 'weight-control-description'
         },
         {
-            textName: '', name: 'petss-program-upper',
-            apiName: "Pet_1",
-            runningtime: "11:50",
-            description: 'petss-program-description'
+            textName: '', name: 'earth-element-upper',
+            apiName: "Earth_Element",
+            runningtime: "16:55",
+            description: 'earth-element-description'
         },
         {
-            textName: '', name: 'petsx-program-upper',
-            apiName: "Pet_2",
-            runningtime: "12:50",
-            description: 'petsx-program-description'
+            textName: '', name: 'water-element-upper',
+            apiName: "Water_Element",
+            runningtime: "17:20",
+            description: 'water-element-description'
+        },
+        {
+            textName: '', name: 'fire-element-upper',
+            apiName: "Fire_Element",
+            runningtime: "15:05",
+            description: 'fire-element-description'
+        },
+        {
+            textName: '', name: 'metal-element-upper',
+            apiName: "Metal_Element",
+            runningtime: "12:39",
+            description: 'metal-element-description'
+        },
+        {
+            textName: '', name: 'wood-element-upper',
+            apiName: "Wood_Element",
+            runningtime: "17:09",
+            description: 'wood-element-description'
         },
         {
             textName: '', name: 'stomach-meridian-upper',
@@ -3332,34 +3350,16 @@ export var Data = { Groups : [
             description: '7-chakra-description'
         },
         {
-            textName: '', name: 'earth-element-upper',
-            apiName: "Earth_Element",
-            runningtime: "16:55",
-            description: 'earth-element-description'
+            textName: '', name: 'petss-program-upper',
+            apiName: "Pet_1",
+            runningtime: "11:50",
+            description: 'petss-program-description'
         },
         {
-            textName: '', name: 'water-element-upper',
-            apiName: "Water_Element",
-            runningtime: "17:20",
-            description: 'water-element-description'
-        },
-        {
-            textName: '', name: 'fire-element-upper',
-            apiName: "Fire_Element",
-            runningtime: "15:05",
-            description: 'fire-element-description'
-        },
-        {
-            textName: '', name: 'metal-element-upper',
-            apiName: "Metal_Element",
-            runningtime: "12:39",
-            description: 'metal-element-description'
-        },
-        {
-            textName: '', name: 'wood-element-upper',
-            apiName: "Wood_Element",
-            runningtime: "17:09",
-            description: 'wood-element-description'
+            textName: '', name: 'petsx-program-upper',
+            apiName: "Pet_2",
+            runningtime: "12:50",
+            description: 'petsx-program-description'
         }
     ]
 };

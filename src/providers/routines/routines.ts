@@ -73,7 +73,8 @@ export class RoutinesProvider {
       for(var i = 0;  i < Data.Programs.length; i++){
         var program = Data.Programs[i];
         if(program.apiName == name || program.name == name.name || program.name == name){
-          program.textName = GermanTexts[program.name];
+          let text = GermanTexts[program.name];
+          program.textName = text ? text : program.name;
           return program;
         }
       }
