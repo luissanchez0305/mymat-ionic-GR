@@ -85,10 +85,7 @@
       "cordova-plugin-advanced-http": {},
       "cordova-plugin-datepicker": {}
     },
-    "platforms": [
-      "ios",
-      "android"
-    ]
+    "platforms": []
   },
   "config": {
     "ionic_bundler": "webpack",
