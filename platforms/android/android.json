@@ -5,6 +5,25 @@
   },
   "config_munge": {
     "files": {
+      "app/src/main/AndroidManifest.xml": {
+        "parents": {
+          "/manifest/application": [
+            {
+              "xml": "<application android:usesCleartextTraffic=\"true\" />",
+              "count": 1,
+              "mode": "merge",
+              "id": "config.xml",
+              "oldAttrib": {
+                "android:hardwareAccelerated": "true",
+                "android:icon": "@mipmap/ic_launcher",
+                "android:label": "@string/app_name",
+                "android:supportsRtl": "true",
+                "android:usesCleartextTraffic": "true"
+              }
+            }
+          ]
+        }
+      },
       "res/xml/config.xml": {
         "parents": {
           "/*": [
@@ -129,40 +148,40 @@
   },
   "installed_plugins": {
     "cordova-plugin-file": {
-      "PACKAGE_NAME": "com.esferasoluciones.mymatgr"
+      "PACKAGE_NAME": "com.esferasoluciones.mymat_light_deutsch"
     },
     "cordova-plugin-advanced-http": {
-      "PACKAGE_NAME": "com.esferasoluciones.mymatgr"
+      "PACKAGE_NAME": "com.esferasoluciones.mymat_light_deutsch"
     },
     "cordova-plugin-badge": {
-      "PACKAGE_NAME": "com.esferasoluciones.mymatgr"
+      "PACKAGE_NAME": "com.esferasoluciones.mymat_light_deutsch"
     },
     "cordova-plugin-datepicker": {
-      "PACKAGE_NAME": "com.esferasoluciones.mymatgr"
+      "PACKAGE_NAME": "com.esferasoluciones.mymat_light_deutsch"
     },
     "cordova-plugin-device": {
-      "PACKAGE_NAME": "com.esferasoluciones.mymatgr"
+      "PACKAGE_NAME": "com.esferasoluciones.mymat_light_deutsch"
     },
     "cordova-plugin-email-composer": {
-      "PACKAGE_NAME": "com.esferasoluciones.mymatgr"
+      "PACKAGE_NAME": "com.esferasoluciones.mymat_light_deutsch"
     },
     "cordova-plugin-local-notification": {
-      "PACKAGE_NAME": "com.esferasoluciones.mymatgr"
+      "PACKAGE_NAME": "com.esferasoluciones.mymat_light_deutsch"
     },
     "cordova-plugin-network-information": {
-      "PACKAGE_NAME": "com.esferasoluciones.mymatgr"
+      "PACKAGE_NAME": "com.esferasoluciones.mymat_light_deutsch"
     },
     "cordova-plugin-networkinterface": {
-      "PACKAGE_NAME": "com.esferasoluciones.mymatgr"
+      "PACKAGE_NAME": "com.esferasoluciones.mymat_light_deutsch"
     },
     "cordova-plugin-splashscreen": {
-      "PACKAGE_NAME": "com.esferasoluciones.mymatgr"
+      "PACKAGE_NAME": "com.esferasoluciones.mymat_light_deutsch"
     },
     "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "com.esferasoluciones.mymatgr"
+      "PACKAGE_NAME": "com.esferasoluciones.mymat_light_deutsch"
     },
     "ionic-plugin-keyboard": {
-      "PACKAGE_NAME": "com.esferasoluciones.mymatgr"
+      "PACKAGE_NAME": "com.esferasoluciones.mymat_light_deutsch"
     }
   },
   "dependent_plugins": {},
